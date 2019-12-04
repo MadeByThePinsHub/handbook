@@ -1,0 +1,54 @@
+## To configure your Mkdocs installation using this file,
+## refer to Mkdocs documentation
+
+# Basic site config
+site_name: The Pins Team English Handbook
+site_url: https://en.handbookbythepins.cf
+use_directory_urls: true
+theme:
+  name: 'material'
+  palette:
+    primary: 'red'
+    accent: 'red'
+  logo:
+    icon: 'book'
+  language: en
+docs_dir: source-files
+
+# For translations to the handbook, refer to https://www.mkdocs.org/user-guide/configuration/#lang and https://squidfunk.github.io/mkdocs-material/getting-started/#localization. Must be same as theme language config above. 
+lang: en
+
+# Repository information
+repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook-en
+repo_name: Fork me on Gitlab.com
+edit_uri: blob/master/source-files
+
+# Navigation
+nav:
+    - 'Introduction': 'index'
+    - 'About': 'about'
+    - 'The DevOps Cycle': 'devops'
+    - 'Code of Conduct': 'code-of-conduct'
+
+# Markdown extensions and other plugins
+# For Markdown extensions for Python, see https://python-markdown.github.io/extensions/ for the full list.
+markdown_extensions:
+    - toc:
+        permalink: True
+    - tables
+    - admonition
+
+plugins:
+    - search
+
+# Some extras
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/MadeByThePinsHub'
+    - type: 'twitter'
+      link: 'https://twitter.com/ThePinsTeam'
+    - type: 'gitlab'
+      link: 'https://gitlab.com/MadeByThePinsTeam-DevLabs'
+    - type: 'telegram'
+      link: 'https://telegram.dog/ThePinsTeamHub'
