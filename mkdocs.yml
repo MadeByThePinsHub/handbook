@@ -26,7 +26,8 @@ edit_uri: blob/master/source-files
 # Navigation
 nav:
     - 'Introduction': 'index'
-    - 'About': 'about'
+    - 'About':
+      - 'Copyright Info': 'copyright'
     - 'The DevOps Cycle': 'devops'
     - 'Code of Conduct': 'code-of-conduct'
 

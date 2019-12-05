@@ -13,8 +13,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Next, copy everything to your working directory specified in step 2.
 COPY . /usr/src/app
 
-# Start an new development server.
-CMD mkdocs serve
-
-# To build the files and to host it elsewhere, replace with the provided 
-# Dockerfile-mkdocs-build.txt file.
+# Generate build files after everything are copied.
+CMD mkdocs build
