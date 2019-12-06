@@ -13,7 +13,7 @@ theme:
   logo:
     icon: 'book'
   language: en
-docs_dir: source-files
+docs_dir: handbook
 
 # For translations to the handbook, refer to https://www.mkdocs.org/user-guide/configuration/#lang and https://squidfunk.github.io/mkdocs-material/getting-started/#localization. Must be same as theme language config above. 
 lang: en
@@ -21,12 +21,13 @@ lang: en
 # Repository information
 repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook-en
 repo_name: Fork me on Gitlab.com
-edit_uri: blob/master/source-files
+edit_uri: blob/master/handbook
 
 # Navigation
 nav:
     - 'Introduction': 'index'
     - 'About':
+      - 'History of Handbook': 'about'
       - 'Copyright Info': 'copyright'
     - 'The DevOps Cycle': 'devops'
     - 'Code of Conduct': 'code-of-conduct'

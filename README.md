@@ -8,7 +8,7 @@ Official team handbook for the Pins Team, fully open-sourced.
 The GitLab CI configuration is ready to use if you duplicate or fork this project to your side. Requires your own Runners and/or supported tags if the GL instance you're using has shared runners in order for NGNIX and Review Apps to work if you use our `old.gitlab-ci.yml` file template. See https://gitlab.com/gitlab-org/gitlab-runner/issues/5038 for details.
 
 ### Local Deployment
-You can clone
+You can clone this GitLab into your machine to contribute to the project
 
 * Clone the project to your machine locally using `git clone` in your command line.
 
@@ -18,7 +18,12 @@ sudo apt-get install git
 # Enter password for linux-sysadmin: REDACTED
 
 # Afterwards, clone the whole repository.
-git clone https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook-en.git
+# You can specify the folder name like this one.
+# If you forget to do that, you can use this later: mv official-handbook-en ThePinsTeam-OfficialHandbook-en
+git clone https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook-en.git ThePinsTeam-OfficialHandbook-en
+
+# Open the folder where you cloned the whole repository
+cd ThePinsTeam-OfficialHandbook-en
 ```
 
 * In case you don't have Git installed, you can download the source code as an `.zip` file. Extract it somewhere afterwards. Replace `master` in `official-handbook-en-master.zip` to the the branch yu want to export, like `official-handbook-en-staging.zip`

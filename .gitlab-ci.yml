@@ -1,15 +1,67 @@
-image: python:alpine
+image: python:latest-alpine
+
+stages:
+  - build
+  - review
+  - staging
+  - production
 
 before_script:
   - pip install mkdocs
   - pip install mkdocs-material
 
-pages:
+build:
+  stage: build
   script:
-  - mkdocs build
-  - mv site public
+    - find source/handbook -type f | xargs wc -w
+    - mkdocs build
+    - mv site public
   artifacts:
     paths:
-    - public
+      - public
+    expire_in: 3 hours
+
+review:
+  stage: review
+  script:
+    - rsync -av --delete public /srv/nginx/pages/$CI_BUILD_REF_SLUG
+  environment:
+    name: review/$CI_BUILD_REF_NAME
+    url: http://$CI_BUILD_REF_SLUG-thepinsteamhandbook-en.$APPS_DOMAIN
+    on_stop: stop_review
   only:
-  - master
+    - branches
+  except:
+    - master
+
+stop_review:
+  stage: review
+  script:
+    - rm -rf public /srv/nginx/pages/$CI_BUILD_REF_SLUG
+  variables:
+    GIT_STRATEGY: none
+  when: manual
+  environment:
+    name: review/$CI_BUILD_REF_NAME
+    action: stop
+
+staging:
+  stage: staging
+  script:
+    - rsync -av --delete public /srv/nginx/pages/staging
+  environment:
+    name: staging
+    url: http://staging-thepinsteamhandbook-en.$APPS_DOMAIN
+  only:
+    - master
+
+production:
+  stage: production
+  script:
+    - rsync -av --delete public /srv/nginx/pages/production
+  environment:
+    name: production
+    url: http://thepinsteamhandbook-en.$APPS_DOMAIN
+  when: manual
+  only:
+    - master
