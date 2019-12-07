@@ -13,7 +13,7 @@ before_script:
 build:
   stage: build
   script:
-    - find source/handbook -type f | xargs wc -w
+    - find handbook -type f | xargs wc -w
     - mkdocs build
     - mv site public
   artifacts:
