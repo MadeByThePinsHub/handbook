@@ -6,7 +6,8 @@ summary: The main page of the Pins team's official English Handbook.
 Welcome to the Pins team's official English Handbook! This is where the whole handbook lives and resides, mostly adopted from GitLab Handbook.
 
 !!! warning "Heads up, the handbook is still work-in-progress."
-    
+    You'll seeing this because most of the deployments are from the `staging` branch. For any feedback about this preview, use our
+
 
 ## What's In the Book?
 There are so many sections and articles in the English Handbook
