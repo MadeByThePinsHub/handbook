@@ -15,3 +15,4 @@ pages:
       - public
   only:
     - staging
+    - master
