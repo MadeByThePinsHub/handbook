@@ -11,7 +11,9 @@ Welcome to the Pins team's official English Handbook! This is where the whole ha
 
 ## What's In the Book?
 There are so many sections and articles in the English Handbook
-
+### About Our Handbook
+* [About the Handbook](about)
+    * [Style Guide](about/CONTRIBUTING/style-guide)
 ### Legal Information
 * [The Legal Team](legal)
     * [Compliance](legal/global-compliance)

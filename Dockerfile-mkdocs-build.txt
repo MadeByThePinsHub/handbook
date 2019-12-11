@@ -1,17 +1,14 @@
-# Use latest Python version with alpine flag to save space.
-FROM python:latest-alpine
-
-# Change your working directory as needed. You need to update to new working directory you set here.
-WORKDIR /usr/src/app
-
-# It'll copy our requirements.txt file to your working directory specified earilier.
-COPY requirements.txt /usr/src/app/
+# Use latest Python version under alpine tage to save space. Change the version manually as it gets updated.
+FROM python:3.6-alpine
 
 # After copying, it will start installing Mkdocs and Material for Mkdocs from requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Next, copy everything to your working directory specified in step 2.
-COPY . /usr/src/app
+## Next, count the words in the handbook
+CMD find handbook -type f | xargs wc -w
 
 # Generate build files after everything are copied.
 CMD mkdocs build
+
+# Rename it into 'public' if deploying to GL Pages
+# CMD mv site public
