@@ -3,7 +3,7 @@
 
 # Basic site config
 site_name: The Pins Team English Handbook
-site_url: https://en.handbookbythepins.cf
+site_url: https://en.handbooksbythepins.cf
 use_directory_urls: true
 theme:
   name: 'material'
@@ -30,6 +30,9 @@ nav:
       - 'History of Handbook': 'about'
       - 'Copyright Info': 'copyright'
     - 'The DevOps Cycle': 'devops'
+    - 'The GitLab Way':
+      - 'GitLab What?': 'the-gitlab-way#gitlab-what'
+      - 'Migrating from GitHub': 'the-gitlab-way/movingtogitlab/github'
     - 'Code of Conduct': 'code-of-conduct'
 
 # Markdown extensions and other plugins
