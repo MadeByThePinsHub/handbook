@@ -7,7 +7,7 @@ Welcome to the Pins team's official English Handbook! This is where the whole ha
 
 !!! warning "Heads up, the handbook is still work-in-progress."
     You'll seeing this because most of the deployments are from the `staging` branch. For any feedback about this preview, use our
-
+    [issue tracker](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/issues).
 
 ## What's In the Book?
 There are so many sections and articles in the English Handbook

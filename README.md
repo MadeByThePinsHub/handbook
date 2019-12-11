@@ -45,3 +45,8 @@ pip install --no-cache-dir -r requirements.txt
 
 ## License
 The project source code is licensed under Mozilla Public License Version 2.0 while the website is licensed under Creative Commons Attribution-ShareAlike 4.0 Internatinal License.
+
+## CONTRIBUTING and Handbook Feedback
+For contributions, see the `CONTRIBUTING.md` file in root directory of this repository or at the [live preview website]
+
+[live preview website]: https://en.handbooksbythepins.cf/about/CONTRIBUTING
