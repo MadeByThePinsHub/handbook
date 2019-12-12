@@ -13,5 +13,5 @@ pages:
   artifacts:
     paths:
       - public
-  # To help GitLab save space and per artifacts retention plicy, expire the contents of 'public' folder after 30 days unless someone chose to kept those files.
-  expires_in: 30 days
+    # To help GitLab save space and per artifacts retention plicy, expire the contents of 'public' folder after 30 days unless someone chose to kept those files.
+    expire_in: 30 days
