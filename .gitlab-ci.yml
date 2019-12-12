@@ -1,9 +1,4 @@
-image: python:3.6
-
-before_script:
-  - pip install pymdown-extensions
-  - pip install mkdocs
-  - pip install mkdocs-material
+image: mkdocs-material:latest
 
 pages:
   script:

@@ -45,6 +45,8 @@ markdown_extensions:
 
 plugins:
     - search
+    - git-revision-date-localized:
+        type: timeago
 
 # Some extras
 extra:
