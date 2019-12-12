@@ -1,4 +1,4 @@
-image: python:3.6
+image: python:3.6-alpine
 
 before_script:
   - pip install pymdown-extensions
@@ -13,9 +13,5 @@ pages:
   artifacts:
     paths:
       - public
-  only:
-    refs:
-      - staging
-      - AndreiJirohHaliliDev2006-staging-patch-*
-      - AndreiJirohHaliliDev2006-master-patch-*
-      - ThePinsTeam-staging-patch-*
+  # To help GitLab save space and per artifacts retention plicy, expire the contents of 'public' folder after 30 days unless someone chose to kept those files.
+  expires_in: 30 days
