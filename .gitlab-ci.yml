@@ -13,3 +13,8 @@ pages:
   artifacts:
     paths:
       - public
+  only:
+    - staging
+    - AndreiJirohHaliliDev2006-staging-patch-*
+    - AndreiJirohHaliliDev2006-master-patch-*
+    - ThePinsTeam-staging-patch-*

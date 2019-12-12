@@ -2,8 +2,7 @@
 
 ## Project Licenses
 
-**Project Source**
-The project source and its contributions from different people are licensed under Mozilla Public License Versin 2.0 or later. The legal code of this license are also available at `LICENSE` in the root folder.
+**Project Source** - The project source and its contributions from different people are licensed under Mozilla Public License Versin 2.0 or later. The legal code of this license are also available at `LICENSE` in the root folder.
 ```txt
 Mozilla Public License Version 2.0
 ==================================
@@ -381,11 +380,10 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
 
 ```
 
-**Handbook Website and Contributions**
-The handbook website itself and contributions from different people are licensed under **Creative Commons Attribution-ShareAlike 4.0 International**. The legal code for this CC license is found at https://creativecommons.org/licenses/by-sa/4.0/legalcode.
+**Handbook Website and Contributions** - The handbook website itself and contributions from different people are licensed under **Creative Commons Attribution-ShareAlike 4.0 International**. The legal code for this CC license is found at https://creativecommons.org/licenses/by-sa/4.0/legalcode.
 
 ## Software Licenses for Third-Parties
-This section contains software license information for third-DevLabsparty sftware used in building this website where our official handbook lives.
+This section contains software license information for third-party software used in building this website where our official handbook lives.
 
 **Material for Mkdocs**
 ```txt
