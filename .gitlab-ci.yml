@@ -1,4 +1,4 @@
-image: mkdocs-material:latest
+image: squidfunk/mkdocs-material:latest
 
 pages:
   script:
