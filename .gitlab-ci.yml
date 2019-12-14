@@ -1,13 +1,13 @@
-image: alpine:latest
+image: python:latest
 
 before_script:
   - python --version
   - pip --version
   - pip install pymdown-extensions mkdocs mkdocs-material
+  - find handbook -type f | xargs wc -w
 
 pages:
   script:
-    - find handbook -type f | xargs wc -w
     - mkdocs build
     - mv site public
   artifacts:
