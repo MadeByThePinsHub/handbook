@@ -1,6 +1,6 @@
 image: alpine:latest
 
-before_scripts:
+before_script:
   - python --version
   - pip --version
   - pip install pymdown-extensions mkdocs mkdocs-material
