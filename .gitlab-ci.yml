@@ -3,7 +3,7 @@ image: python:latest
 before_script:
   - python --version
   - pip --version
-  - pip install pymdown-extensions mkdocs mkdocs-material mkdocs-git-revision-date-localized
+  - pip install pymdown-extensions mkdocs mkdocs-material mkdocs-git-revision-date-localized-plugin
   - find handbook -type f | xargs wc -w
 
 pages:
