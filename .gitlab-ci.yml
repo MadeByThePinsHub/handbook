@@ -1,4 +1,9 @@
-image: squidfunk/mkdocs-material:latest
+image: alpine:latest
+
+before_scripts:
+  - python --version
+  - pip --version
+  - pip install pymdown-extensions mkdocs mkdocs-material
 
 pages:
   script:
