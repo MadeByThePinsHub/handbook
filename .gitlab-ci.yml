@@ -3,12 +3,28 @@ image: python:latest
 before_script:
   - python --version
   - pip --version
+  # Download required dependencies for this repository.
   - pip install pymdown-extensions mkdocs mkdocs-material mkdocs-git-revision-date-localized-plugin
   - find handbook -type f | xargs wc -w
 
-pages:
+cache:
+  paths:
+    - site
+
+stages:
+  - build
+  - deploy
+
+mkdocs_build:
   script:
     - mkdocs build
+  artifacts:
+    paths:
+      - site
+    expire_in: 7 days
+
+pages:
+  script:
     - mv site public
   artifacts:
     paths:
