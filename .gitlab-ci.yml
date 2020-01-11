@@ -16,6 +16,7 @@ stages:
   - deploy
 
 mkdocs_build:
+  stage: build
   script:
     - mkdocs build
   artifacts:
@@ -24,6 +25,7 @@ mkdocs_build:
     expire_in: 7 days
 
 pages:
+  stage: deploy
   script:
     - mv site public
   artifacts:
