@@ -5,7 +5,7 @@ Official team handbook for the Pins Team, fully open-sourced.
 ## How to Deploy
 
 ### GitLab CI
-The GitLab CI configuration is ready to use if you duplicate or fork this project to your side. Requires your own Runners and/or supported tags if the GL instance you're using has shared runners in order for NGNIX and Review Apps to work if you use our `old.gitlab-ci.yml` file template. See https://gitlab.com/gitlab-org/gitlab-runner/issues/5038 for details.
+The GitLab CI configuration is ready to use if you duplicate or fork this project to your side. No extra step required. Just edit and wait for first successful deplyoment.
 
 ### Local Deployment
 You can clone this GitLab into your machine to contribute to the project
