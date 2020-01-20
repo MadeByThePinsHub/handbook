@@ -29,11 +29,15 @@ nav:
     - 'About':
       - 'History of Handbook': 'about'
       - 'Copyright Info': 'copyright'
-    - 'The DevOps Cycle': 'devops'
+    - 'The DevOps Cycle':
+      - 'Intro to DevOps': 'devops'
     - 'The GitLab Way':
-      - 'GitLab What?': 'the-gitlab-way#gitlab-what'
+      - 'GitLab What?': 'the-gitlab-way/#gitlab-what'
       - 'Migrating from GitHub': 'the-gitlab-way/movingtogitlab/github'
     - 'Code of Conduct': 'code-of-conduct'
+    - 'Life @ The Pins Team':
+      - 'Censorship 101':
+        - 'Handling Spoilers': 'life-at-the-pins/censorship-101/handling-spoilers'
 
 # Markdown extensions and other plugins
 # For Markdown extensions for Python, see https://python-markdown.github.io/extensions/ for the full list.
@@ -42,6 +46,7 @@ markdown_extensions:
         permalink: True
     - tables
     - admonition
+    - footnotes
 
 plugins:
     - search

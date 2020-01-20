@@ -33,6 +33,10 @@ dependency_installer:
   stage: install
   script:
     - pip install -r requirements.txt
+  only: 
+    refs:
+      - staging
+      - master
 
 mkdocs_build:
   stage: build
@@ -42,6 +46,10 @@ mkdocs_build:
     paths:
       - site
     expire_in: 7 days
+  only:
+    refs:
+      - staging
+      - master
 
 pages:
   stage: deploy
@@ -50,5 +58,9 @@ pages:
   artifacts:
     paths:
       - public
-    # To help GitLab save space and per artifacts retention plicy, expire the contents of 'public' folder after 30 days unless someone chose to kept those files.
+    # To help GitLab save space and per artifacts retention policy, expire the contents of 'public' folder after 30 days unless someone chose to kept those files.
     expire_in: 30 days
+  only:
+    refs:
+      - staging
+      - master
