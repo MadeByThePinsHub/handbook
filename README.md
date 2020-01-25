@@ -14,32 +14,32 @@ You can clone this GitLab into your machine to contribute to the project
 
 ```bash
 # Download Git to an Linux computer using apt-get
-sudo apt-get install git
+dekulefthegroup@Not-Literally-Your-Ubuntu-VM: ~$ sudo apt-get install git
 # Enter password for linux-sysadmin: REDACTED
 
 # Afterwards, clone the whole repository.
 # You can specify the folder name like this one.
 # If you forget to do that, you can use this later: mv official-handbook-en ThePinsTeam-OfficialHandbook-en
-git clone https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook-en.git ThePinsTeam-OfficialHandbook-en
+dekulefthegroup@Not-Literally-Your-Ubuntu-VM: ~$ git clone https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook-en.git ThePinsTeam-OfficialHandbook-en
 
 # Open the folder where you cloned the whole repository
-cd ThePinsTeam-OfficialHandbook-en
+dekulefthegroup@Not-Literally-Your-Ubuntu-VM: ~$ cd ThePinsTeam-OfficialHandbook-en
 ```
 
 * In case you don't have Git installed, you can download the source code as an `.zip` file. Extract it somewhere afterwards. Replace `master` in `official-handbook-en-master.zip` to the the branch yu want to export, like `official-handbook-en-staging.zip`
 
 ```bash
 # We'll using wget to download those files. After downloading the zipped files, we'll unzip it.
-wget https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/-/archive/staging/official-handbook-staging.zip | unzip -l "official-handbook-staging.zip"
+dekulefthegroup@Not-Literally-Your-Ubuntu-VM: ~$ wget https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/-/archive/staging/official-handbook-staging.zip | unzip -l "official-handbook-staging.zip"
 ```
 
 * Install or update Python and `pip` to latest stable build using either Docker, your machine's package manager or from official Python website. Afterwards, install `mkdocs` and `mkdocs-material` using `pip` from the provided `requirements.txt` file.
 
 ```bash
-pip install --no-cache-dir -r requirements.txt
+dekulefthegroup@Not-Literally-Your-Ubuntu-VM: ~/ThePinsTeam-OfficialHandbook-en$ pip install -r requirements.txt
 ```
 
-* Count how many
+* Count how many words are there in the `handbook` directory.
 
 ```bash
 find handbook -type f | xargs wc -w

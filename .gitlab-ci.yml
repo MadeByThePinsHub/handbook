@@ -41,15 +41,12 @@ dependency_installer:
 mkdocs_build:
   stage: build
   script:
+    - find handbook -type f | xargs wc -w
     - mkdocs build
   artifacts:
     paths:
       - site
     expire_in: 7 days
-  only:
-    refs:
-      - staging
-      - master
 
 pages:
   stage: deploy
@@ -58,9 +55,4 @@ pages:
   artifacts:
     paths:
       - public
-    # To help GitLab save space and per artifacts retention policy, expire the contents of 'public' folder after 30 days unless someone chose to kept those files.
     expire_in: 30 days
-  only:
-    refs:
-      - staging
-      - master
