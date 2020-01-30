@@ -1,5 +1,5 @@
 # Use latest Python version under alpine tage to save space. Change the version manually as it gets updated.
-FROM python:3.6-alpine
+FROM python:3.8.1-alpine
 
 # After copying, it will start installing Mkdocs and Material for Mkdocs from requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
