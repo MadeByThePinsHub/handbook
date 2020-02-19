@@ -53,13 +53,13 @@ words_counter:
 
 dry-run:triage-ops:
   stage: dry-run
-  scripts: scripts/dry-runs/gl-triage-ops.sh
+  script: scripts/dry-runs/gl-triage-ops.sh
   only:
     - manual
 
 triage-ops:
   stage: triage
-  scripts:
+  script:
     # Use your own token! Do not steal.
     - gitlab-triage --token $API_TOKEN --source-id  --host-url $HOST_URL
   only:
