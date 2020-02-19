@@ -1,7 +1,7 @@
 The **Development and Operations** (or simply DevOps), is an [enterprise](https://www.webopedia.com/TERM/E/enterprise.html) software development phrase used to mean a type of agile relationship between IT and development operations[^1]
 
 ## In this section
-Just like [GitLab Handbook's Engineering section], we keep most of them here.[^2]
+Just like [GitLab Handbook's Engineering section], we keep most of them here.[^2] The DevOps department is where
 
 ## Communication
 
@@ -17,7 +17,7 @@ For the DevOps department, any important initiative will be announced in:
     * Also part of the onboarding process, you'll be ntifed by our staff about the department mailing lists. Follow instuctions as stated.
 * On GitLab.com
     * Issue discussions with the labels `~"DevOps Department::Discussion Board"`, `~"Unfiltered::DevOps Department Discussions"` and
-    * For "~security" labelled issues,
+    * For "~security" labelled issues, look for `~"Secret Files"`.
     * `~"Week In Review::DevOps"` and `~"Week In Review"`
         * Week-in-Review document updates are announced with this tag in Team Issue Tracker Board.
 
@@ -26,9 +26,8 @@ If you frequently check any of these channels, you can consider yourself informe
 ## Related Pages
 * [Onboarding Process]: if you're looking for any information on how we onboard new team members.
 
-## References and Notes
 [^1]: https://www.webopedia.com/TERM/D/devops_development_operations.html.
-[^2]: But there are some things that we exclude due to various reasons like some doesn't apply to us, or some sort of GitLab-only content.
+[^2]: But there are some things that we exclude due to various reasons like some doesn't apply to us, or some sort of GitLab-only content. Our best advise? Read GitLab Handbook. Period.
 
 <!-- Link references -->
 [Developers' Changelogs]: https://t.me/DevChangeLogs_byMPTeam

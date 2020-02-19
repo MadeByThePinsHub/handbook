@@ -1,5 +1,12 @@
-# Use latest Python version under alpine tage to save space. Change the version manually as it gets updated.
-FROM python:3.8.1-alpine
+# This file is a template, and might need editing before it works on your project.
+FROM python:3.8-alpine
+
+WORKDIR /usr/workspace/official-handbook-thepinsteam/
+
+COPY requirements.txt /usr/src/app/
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . /usr/workspace/official-handbook-thepinsteam
 
 # After copying, it will start installing Mkdocs and Material for Mkdocs from requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
@@ -11,4 +18,4 @@ CMD find handbook -type f | xargs wc -w
 CMD mkdocs build
 
 # Rename it into 'public' if deploying to GL Pages
-# CMD mv site public
+CMD mv site public

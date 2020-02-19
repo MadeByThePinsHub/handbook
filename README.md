@@ -36,10 +36,10 @@ dekulefthegroup@Not-Literally-Your-Ubuntu-VM: ~$ wget https://gitlab.com/MadeByT
 * Install or update Python and `pip` to latest stable build using either Docker, your machine's package manager or from official Python website. Afterwards, install `mkdocs` and `mkdocs-material` using `pip` from the provided `requirements.txt` file.
 
 ```bash
-dekulefthegroup@Not-Literally-Your-Ubuntu-VM: ~/ThePinsTeam-OfficialHandbook-en$ pip install -r requirements.txt
+dekulefthegroup@Not-Literally-Your-Ubuntu-VM: ~/ThePinsTeam-OfficialHandbook-en $ pip install -r requirements.txt
 ```
 
-* Count how many words are there in the `handbook` directory.
+* Count how many words are there in the `handbook` directory and check how many pages are in with
 
 ```bash
 find handbook -type f | xargs wc -w
@@ -50,7 +50,7 @@ find handbook -type f | xargs wc -w
 * When everything is clear, use `mkdocs build` to generate documentation website files.
 
 ## License
-The project source code is licensed under Mozilla Public License Version 2.0 while the website is licensed under Creative Commons Attribution-ShareAlike 4.0 Internatinal License.
+The project source code is licensed under Mozilla Public License Version 2.0 while the website is licensed under Creative Commons Attribution-ShareAlike 4.0 Internatinal License. Feel free to remix this repository and use them on your own team.
 
 ## CONTRIBUTING and Handbook Feedback
 For contributions, see the `CONTRIBUTING.md` file in root directory of this repository or at the [live preview website]

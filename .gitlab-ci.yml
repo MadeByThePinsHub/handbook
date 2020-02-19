@@ -1,7 +1,5 @@
-# This file is a template, and might need editing before it works on your project.
-# Official language image. Look for the different tagged releases at:
-# https://hub.docker.com/r/library/python/tags/
-image: python:latest
+# Use GitLab's Build Images to use multiple languages.
+image: "registry.gitlab.com/gitlab-org/gitlab-build-images:ruby-2.7-python-3.7.4-git-2.7"
 
 # Change pip's cache directory to be inside the project directory since we can
 # only cache local items.
@@ -20,6 +18,7 @@ cache:
 
 before_script:
   - python -V  # Print out python version for debugging
+  - ruby -V # Print out ruby version for debugging
   - pip install virtualenv
   - virtualenv venv
   - source venv/bin/activate
@@ -27,26 +26,44 @@ before_script:
 stages:
   - install
   - build
+  - dry-run
+  - triage
   - deploy
 
 dependency_installer:
   stage: install
   script:
     - pip install -r requirements.txt
-  only: 
-    refs:
-      - staging
-      - master
+    - gem install gitlab-triage
 
 mkdocs_build:
   stage: build
   script:
-    - find handbook -type f | xargs wc -w
     - mkdocs build
   artifacts:
     paths:
       - site
     expire_in: 7 days
+
+words_counter:
+  stage: build
+  script: scripts/builds/count-words.sh
+  only:
+    - manual
+
+dry-run:triage-ops:
+  stage: dry-run
+  scripts: scripts/dry-runs/gl-triage-ops.sh
+  only:
+    - manual
+
+triage-ops:
+  stage: triage
+  scripts:
+    # Use your own token! Do not steal.
+    - gitlab-triage --token $API_TOKEN --source-id  --host-url $HOST_URL
+  only:
+    - schedules
 
 pages:
   stage: deploy
@@ -56,3 +73,8 @@ pages:
     paths:
       - public
     expire_in: 30 days
+  only:
+    refs:
+      - staging
+      # Will be removed after merging !1.
+      - AndreiJirohHaliliDev2006-master-patch-50547

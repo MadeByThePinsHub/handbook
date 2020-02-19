@@ -30,7 +30,7 @@ It's easy to see that the handbook is large, but have you ever wondered just _ho
 | 2020-04-01 | TBA | TBA |
 
 ### Computing the Handbook Pages
-* As the CI kicks off, it runs  the `find handbook -type f | xargs wc -w` commands before Mkdocs start building documentation resources
+* You need to trigger the `word_counter` job to continue.
 * Look for the total words count in the CI logs, then launch
 
 ## See Also
@@ -40,4 +40,4 @@ It's easy to see that the handbook is large, but have you ever wondered just _ho
 ## Footnotes
 
 [^1]: As we update the things, we configured GitLab CI to count how many words our handbook have in real-time before Mkdocs kicks off the builder.
-[^2]: We update the historical records every **April's Fools Day** and other random days before December, based on ur pages counter schedule.
+[^2]: We update the historical records every **April's Fools Day** and other random days before December, depending on our pages counter schedule.

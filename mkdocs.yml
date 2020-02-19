@@ -23,7 +23,8 @@ repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook-en
 repo_name: Fork me on Gitlab.com
 edit_uri: blob/master/handbook
 
-# Navigation
+# Navigation menu
+# Update this as new
 nav:
     - 'Introduction': 'index'
     - 'About':
@@ -38,6 +39,9 @@ nav:
     - 'Life @ The Pins Team':
       - 'Censorship 101':
         - 'Handling Spoilers': 'life-at-the-pins/censorship-101/handling-spoilers'
+    - 'In other Languages':
+      - 'Fork to localize': "https://gitlab.com/MadeByThePinsTeam-DevLabs/Official-Handbook/-/forks/new"
+      - ''
 
 # Markdown extensions and other plugins
 # For Markdown extensions for Python, see https://python-markdown.github.io/extensions/ for the full list.
