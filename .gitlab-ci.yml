@@ -1,5 +1,5 @@
 # Use GitLab's Build Images to use multiple languages.
-image: "registry.gitlab.com/gitlab-org/gitlab-build-images:ruby-2.7-python-3.7.4-git-2.7"
+image: "registry.gitlab.com/gitlab-org/gitlab-build-images:ruby-2.7-python-3.7.4"
 
 # Change pip's cache directory to be inside the project directory since we can
 # only cache local items.
