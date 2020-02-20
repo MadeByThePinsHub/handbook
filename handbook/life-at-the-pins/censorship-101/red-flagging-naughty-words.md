@@ -3,6 +3,7 @@ title: Red Flagging Naughty Words
 ---
 
 ## Why Censoring Naughty Words?
+* **Making our spaces safe for work.**
 
 ## List of Known Naughty Words
 While we don't have our own naughty words marked for red flagging, we chose some punlic lists to lessen the burden of
