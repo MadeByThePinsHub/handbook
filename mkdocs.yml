@@ -30,6 +30,7 @@ nav:
     - 'About':
       - 'History of Handbook': 'about'
       - 'Copyright Info': 'copyright'
+      - 'Team Members Directory': 'directory/team'
     - 'The DevOps Cycle':
       - 'Intro to DevOps': 'devops'
     - 'The GitLab Way':
@@ -39,9 +40,10 @@ nav:
     - 'Life @ The Pins Team':
       - 'Censorship 101':
         - 'Handling Spoilers': 'life-at-the-pins/censorship-101/handling-spoilers'
+        - 'Red Flagging Naughty Words': 'life-at-the-pins/censorship-101/red-flagging-naughty-words'
     - 'In other Languages':
       - 'Fork to localize': "https://gitlab.com/MadeByThePinsTeam-DevLabs/Official-Handbook/-/forks/new"
-      - ''
+      - 'Available Translations': 'select-language'
 
 # Markdown extensions and other plugins
 # For Markdown extensions for Python, see https://python-markdown.github.io/extensions/ for the full list.
@@ -76,7 +78,7 @@ markdown_extensions:
         'issue': 'Issue',
         'pull': 'Merge Request',
         'mention': 'GitLab User',
-        'repository': 'Repository'
+        'repository': 'Project'
       }
   - pymdownx.mark
   - pymdownx.smartsymbols
@@ -85,10 +87,15 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+# Mkdocs Plugins
 plugins:
     - search
     - git-revision-date-localized:
         type: iso_datetime
+    - redirects:
+        "redirect_maps":
+          'remix': "https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/-/forks/new"
+          'remix-on-crowin': 'https://crowdin.com'
 
 # Some extras
 extra:
