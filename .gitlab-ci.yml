@@ -35,7 +35,7 @@ dependency_installer:
   stage: install
   script:
     - pip install -r requirements.txt
-    - gem install gitlab-triage
+    # - gem install gitlab-triage
 
 mkdocs_build:
   stage: build
