@@ -13,7 +13,7 @@ Oh, you are redirected here because someone from the team just contacted you or 
 
 **Don'ts**
 
-* Don't use any words that not suitable for children.
+* [Don't use any naughty words.](./lige-at-the-pins/censorship-101/)
 * Don't reuse an codename that currently used by another team member.
 
 ## List of Team Codenames
@@ -26,6 +26,11 @@ Any team codename updates should use the **fork-commit-merge request workflow** 
 | Andrei Jiroh Halili, Team Maintainer/Founder | @AndreiJirohHalilidev2006 | Deku-kun,  | <https://en.handbooksbythepins.cf/hall-of-fame/halili/andrei-jiroh> | Forgotten to add data. |
 
 ### Past Codenames
+
+!!! info "Codenames that got their EOL (end-of-life) by their owners usually get archived here."
+    If you don't have your codename gets archived or publicized, please ping our legal team at <legal@madebythepins.tk>
+    and we'll remove it for you. You'll not receive any message from us that we received your request, so please keep your
+    eye on this place whatever we removed your codename.
 
 | **Name and Position** | **GitLab Username** | **Past Codename** | **First Used on** | **Did Left The team?** |
 | ------ | ------ | ------ | ------ | ------ |

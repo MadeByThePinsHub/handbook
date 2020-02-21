@@ -27,7 +27,7 @@ before_script:
 stages:
   - install
   - build
-  # - dry-run
+  - dry-run
   - triage
   - deploy
 
@@ -37,6 +37,21 @@ dependency_installer:
     - pip install -r requirements.txt
     # - gem install gitlab-triage
 
+mkdocs_buildTester:
+  stage: dry-run
+  script:
+    - mkdocs build
+  artifacts:
+    paths:
+      - public
+    expire_in: 7 days
+  only:
+    refs:
+      - branches
+  except:
+    - master
+    - staging
+
 mkdocs_build:
   stage: build
   script:
@@ -45,6 +60,10 @@ mkdocs_build:
     paths:
       - site
     expire_in: 7 days
+  only:
+    refs:
+      - staging
+      - master
 
 words_counter:
   stage: build

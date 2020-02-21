@@ -21,7 +21,7 @@ lang: en
 # Repository information
 repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook-en
 repo_name: Fork me on Gitlab.com
-edit_uri: blob/master/handbook
+edit_uri: blob/staging/handbook
 
 # Navigation menu
 # Update this as new
@@ -41,6 +41,9 @@ nav:
       - 'Censorship 101':
         - 'Handling Spoilers': 'life-at-the-pins/censorship-101/handling-spoilers'
         - 'Red Flagging Naughty Words': 'life-at-the-pins/censorship-101/red-flagging-naughty-words'
+      - 'Directory':
+        - 'Team Member Codenames': 'directory/codenames'
+        - 'List of Team and Community Members': 'directory/team-members'
     - 'In other Languages':
       - 'Fork to localize': "https://gitlab.com/MadeByThePinsTeam-DevLabs/Official-Handbook/-/forks/new"
       - 'Available Translations': 'select-language'
@@ -96,6 +99,8 @@ plugins:
         "redirect_maps":
           'remix': "https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/-/forks/new"
           'remix-on-crowin': 'https://crowdin.com'
+          'codenames': 'directory/codenames'
+          'team-members': 'directory/team-members'
 
 # Some extras
 extra:

@@ -2,6 +2,8 @@
 title: Red Flagging Naughty Words
 ---
 
+As our team and community grows in number, there are some who might say naughty words
+
 ## Why Censoring Naughty Words?
 * **Making our spaces safe for work.**
 
@@ -22,7 +24,7 @@ If you seen an naughty word in our Issue Trackers and Merge Request Trackers, pl
 <!--- Usage: @RecapTimeBot flag <reason> --->
 @RecapTime_Bot flag naughty-words
 ```
-After that, @RecapTime_Bot will handle that for you, adding the ~"Flagged by Community::Naughty Words" and ~"Flagged by Community::Waiting for review" tags.
+After that, @RecapTime_Bot will handle that for you, adding the `~"Flagged by Community::Naughty Words"` and `~"Flagged by Community::Waiting for review"` tags.
 
 Once an team member reviewed the content, s/he can use the following slash commands to either close or remove-and-move-on.
 ```md
@@ -34,4 +36,8 @@ Once an team member reviewed the content, s/he can use the following slash comma
 /close
 ```
 
-[eat this page]: devops/faq/berserk-mode
+!!! warning 'Don't forget to lock! This will keep outsiders out."
+    Locking the whole issue/MR ensures that no outsider will mess things up after our moderators approved the flagging request.
+    If it's not, keep it unlocked and keep updated on the top of the hour at that offending thread.
+
+[eat this page]: ./devops/faq/berserk-mode
