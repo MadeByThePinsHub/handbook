@@ -43,7 +43,7 @@ mkdocs_buildTester:
     - mkdocs build
   artifacts:
     paths:
-      - public
+      - site
     expire_in: 7 days
   only:
     refs:
