@@ -99,6 +99,8 @@ plugins:
         "redirect_maps":
           'remix': "https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/-/forks/new"
           'remix-on-crowin': 'https://crowdin.com'
+          # redirect old links to new, working ones
+          # avoid multiple redirects as it hurts performance!
           'codenames': 'directory/codenames'
           'team-members': 'directory/team-members'
 

@@ -1,11 +1,10 @@
 # Official English Team Handbook
-
-Official team handbook for the Pins Team, fully open-sourced.
+Welcome to the Pins team's English team handbook, which we open-sourced by @AndreiJirohHaliliDev2006
 
 ## How to Deploy
 
 ### GitLab CI
-The GitLab CI configuration is ready to use if you duplicate or fork this project to your side. No extra step required. Just edit and wait for first successful deplyoment.
+The GitLab CI configuration is ready to use if you duplicate or fork this project to your side. No extra step required and feel free to customize it on your needs. Just edit and wait for first successful deplyoment.
 
 ### Local Deployment
 You can clone this GitLab into your machine to contribute to the project
@@ -39,10 +38,10 @@ dekulefthegroup@Not-Literally-Your-Ubuntu-VM: ~$ wget https://gitlab.com/MadeByT
 dekulefthegroup@Not-Literally-Your-Ubuntu-VM: ~/ThePinsTeam-OfficialHandbook-en $ pip install -r requirements.txt
 ```
 
-* Count how many words are there in the `handbook` directory and check how many pages are in with
+* Count how many words are there in the `handbook` directory and check how many with an online tool.
 
 ```bash
-find handbook -type f | xargs wc -w
+find handbook -type f | xargs wc -w # Wait for the answer, then calucate!
 ```
 
 * Run an new development server by using `mkdocs serve` command. Edit as you go and it'll refreshes every single save. Inspect for any errors and fix it.
@@ -51,6 +50,8 @@ find handbook -type f | xargs wc -w
 
 ## License
 The project source code is licensed under Mozilla Public License Version 2.0 while the website is licensed under Creative Commons Attribution-ShareAlike 4.0 Internatinal License. Feel free to remix this repository and use them on your own team.
+
+Media content, like photos and videos are not covered by the licenses stated above unless otherwise specified.
 
 ## CONTRIBUTING and Handbook Feedback
 For contributions, see the `CONTRIBUTING.md` file in root directory of this repository or at the [live preview website]
