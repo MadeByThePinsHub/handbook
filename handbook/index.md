@@ -6,9 +6,9 @@ summary: The main page of the Pins team's official Handbook.
 Welcome to the Pins team's official English Handbook! This is where the whole handbook lives and resides, mostly adopted from GitLab Handbook.
 
 !!! warning "Heads up, the handbook is still work-in-progress."
-    You'll seeing this because most of the deployments are from the `staging` branch. For any feedback about this preview, use our
-    [issue tracker](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/issues)
-    in GitLab.com.
+    You'll seeing this because most of the deployments are either from the `staging` branch or from
+    [an branch we're working](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/pipelines). For any feedback about this preview,
+    use our [issue tracker](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/issues) in GitLab.com.
 
 ## What's In the Book?
 There are so many articles in our team's Handbook and we have divided it into different sections to improve handbook navigation.
