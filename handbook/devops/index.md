@@ -1,7 +1,7 @@
 The **Development and Operations** (or simply DevOps), is an [enterprise](https://www.webopedia.com/TERM/E/enterprise.html) software development phrase used to mean a type of agile relationship between IT and development operations[^1]
 
 ## In this section
-Just like [GitLab Handbook's Engineering section], we keep most of them here.[^2] The DevOps department is where
+Just like [GitLab Handbook's Engineering section], we keep most of them here.[^2] The DevOps department is not your ordinary Engineering department, because we 
 
 ## Communication
 
@@ -18,8 +18,8 @@ For the DevOps department, any important initiative will be announced in:
 * On GitLab.com
     * Issue discussions with the labels `~"DevOps Department::Discussion Board"`, `~"Unfiltered::DevOps Department Discussions"` and
     * For "~security" labelled issues, look for `~"Secret Files"`.
-    * `~"Week In Review::DevOps"` and `~"Week In Review"`
-        * Week-in-Review document updates are announced with this tag in Team Issue Tracker Board.
+* On Keybase
+    * Watch out on `madebythepinshub` big team's `#devops` channel for any updates and join discussion.
 
 If you frequently check any of these channels, you can consider yourself informed. It is up to the person sharing to ensure that the same message is shared across all channels. Ideally, this message should be a one sentence summary with a link to an issue to allow for a single source of truth for any feedback.
 
@@ -33,5 +33,5 @@ If you frequently check any of these channels, you can consider yourself informe
 [Developers' Changelogs]: https://t.me/DevChangeLogs_byMPTeam
 [GitLab Handbook's Engineering section]: https://about.gitlab.com/handbook/engineering
 [The Developers' Lounge]: https://t.me/CodersChat_byMPTeam
-[Onboarding Process]: your-first-years/onboarding
-[multimodal communication]: communication
+[Onboarding Process]: ../your-first-years/onboarding
+[multimodal communication]: ../life-at-the-pins/communication

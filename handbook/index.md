@@ -5,15 +5,16 @@ summary: The main page of the Pins team's official Handbook.
 
 Welcome to the Pins team's official English Handbook! This is where the whole handbook lives and resides, mostly adopted from GitLab Handbook.
 
-!!! warning "Heads up, the handbook is still work-in-progress."
+!!! warning "Heads up, the handbook is still work-in-progress. Feedback is appericated! :love:"
     You'll seeing this because most of the deployments are either from the `staging` branch or from
     [an branch we're working](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/pipelines). For any feedback about this preview,
     use our [issue tracker](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/issues) in GitLab.com.
 
 ## What's In the Book?
-There are so many articles in our team's Handbook and we have divided it into different sections to improve handbook navigation.
+There are so many articles in our team's Handbook and we have divided it into different sections to improve handbook navigation, just in case the navigation bar is outdated.
 
 ### About Our Handbook and Resources
+FAQs about our handbook, the style guide, team directories, and other resources.
 * [About the Handbook](about)
     * [Style Guide](about/CONTRIBUTING/style-guide)
 * [Team Codenames](codenames)
@@ -22,17 +23,28 @@ There are so many articles in our team's Handbook and we have divided it into di
 
 ### General
 * [Your First Years at The Pins Team](your-first-years)
-    * [Onboarding](your-first-years/onboarding)
+    * [Onboarding](your-first-years/onboarding)[^1]
     * [Offboarding](your-first-years/offboarding)[^1]
+* [Life at the Pins team](life-at-the-pins)
+    * [Censorship 101](life-at-the-pins/censorship-101)
+        * [Handling Spoilers](handbook/life-at-the-pins/censorship-101/handling-spoilers)
+        * [Red Flagging Naughty Words](life-at-the-pins/censorship-101/red-flagging-naughty-words)
+    * [Off-topic Discussions](life-at-the-pins/off-topic-and-shitposting)
 
 ### DevOps Department
 * [Index](devops)
+    * [FAQs](devops/faqs)
+        * [Berserk Mode](devops/faqs/berserk-mode)
+        * [Keybase](devops/faqs/keybase)
+    * [Secure](devops/secure)
 
 ### The GitLab way
-* [GitLab What?](the-gitlab-way)
+How the Pins team uses GitLab
+* [GitLab What?](the-gitlab-way#gitlab-what)
     * [Triage Operations](the-gitlab-way/triage-ops)
 
 ### Legal Information
+Copyright blah blah blah, privacy policies and other legal stuff.
 * [The Legal Team](legal)
     * [Compliance](legal/global-compliance)
     * [The Code of Conduct](about/code-of-conduct)
@@ -41,7 +53,7 @@ There are so many articles in our team's Handbook and we have divided it into di
 ## Open-source and always open to community feedback and improvements.
 Your contributions are licensed under both Mozilla Public License Version 2.0+ and Creative Commons Attribution-ShareAlike International License 4.0+.
 
-You are free to fork, remix, and use our handbook in any form, but you are required to give attribution and license under the same terms, unless otherwise specified in your IP permission request in the Issue Tracker.
+You are free to fork, remix, and use our handbook in any form, but you are required to give attribution and license under the same terms, unless otherwise specified in your IP permission request in the Issue Tracker.[^2]
 
-## References
-[^1]: Will be redirected to better path.
+[^1]: Redirecting to `life-at-the-pins/your-first-weeks/*`...
+[^2]: See [copyright page](copyright) for info.
