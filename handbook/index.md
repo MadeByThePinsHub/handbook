@@ -15,6 +15,7 @@ There are so many articles in our team's Handbook and we have divided it into di
 
 ### About Our Handbook and Resources
 FAQs about our handbook, the style guide, team directories, and other resources.
+
 * [About the Handbook](about)
     * [Style Guide](about/CONTRIBUTING/style-guide)
 * [Team Codenames](codenames)
@@ -32,19 +33,25 @@ FAQs about our handbook, the style guide, team directories, and other resources.
     * [Off-topic Discussions](life-at-the-pins/off-topic-and-shitposting)
 
 ### DevOps Department
+DevOps and GitLab is a good partner, but how about Glitch (or even GitPod)?
+
 * [Index](devops)
     * [FAQs](devops/faqs)
         * [Berserk Mode](devops/faqs/berserk-mode)
         * [Keybase](devops/faqs/keybase)
     * [Secure](devops/secure)
+    * [Deploy](devops/deploy)
+        * [Working with Glitch and GitLab](devops/deploy/gitlab=and-glitch)
 
 ### The GitLab way
-How the Pins team uses GitLab
+How the Pins team uses GitLab and do Git-related stuff the GitLab way like triaging issues and merge requests.
+
 * [GitLab What?](the-gitlab-way#gitlab-what)
     * [Triage Operations](the-gitlab-way/triage-ops)
 
 ### Legal Information
 Copyright blah blah blah, privacy policies and other legal stuff.
+
 * [The Legal Team](legal)
     * [Compliance](legal/global-compliance)
     * [The Code of Conduct](about/code-of-conduct)
