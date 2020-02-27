@@ -3,7 +3,7 @@ title: About the Handbook
 ---
 
 ## History of the handbook
-The handbook started when Andrei Jiroh (@AndreiJirohHaliliDev2006)
+The handbook started when Andrei Jiroh (@AndreiJirohHaliliDev2006) visits [the GitLab Handbook](about.gitlab.com/handbook)
 
 ## Advantages
 Like GitLab, the Pins team's handbook is extensive and keeping it relevant is an important part of everyone's job. It is a vital part of who we are and how we communicate. We established these processes because we saw these benefits:
