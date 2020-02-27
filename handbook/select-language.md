@@ -1,6 +1,7 @@
 ---
 title: Select Language
 ---
+As our handbook is available with more languages, we'll update the language selector page here. [See the translation docs for more info.](about/CONTRIBUTING#translating-the-handbook)
 
 ## Current Translations
 * [English [Original Language Written]](https://en.handbooksbythepins.cf) - **YOU ARE HERE**

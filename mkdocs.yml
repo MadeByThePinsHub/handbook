@@ -103,6 +103,8 @@ plugins:
           # avoid multiple redirects as it hurts performance!
           'codenames': 'directory/codenames'
           'team-members': 'directory/team-members'
+          'your-first-years/onboarding': 'life-at-the-pins/your-first-weeks/onboarding'
+          'your-first-years/offboarding': 'life-at-the-pins.your-last-weeks/offboarding'
 
 # Some extras
 extra:
