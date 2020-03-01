@@ -18,4 +18,12 @@ $ keybase id <username>@<service>             # look <service> <username> up
 ## For example, verify if Andrei Jiroh has a Keybase account using his other accounts.
 $ keybase id kuys_potpot@twitter
 $ keybase id andreijirohhalilidev2006@github
+
+## Try another example, for this time, use the Pins team's proofs
+$ keybase id thepinsteam@twitter
+$ keybase id thepinsteam@github
+$ keybase id madebythepins.tk@dns
 ```
+
+### Visitng the profiles
+Depending on how you 

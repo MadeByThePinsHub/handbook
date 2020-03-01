@@ -1,5 +1,5 @@
 # Official English Team Handbook
-Welcome to the Pins team's English team handbook, which we open-sourced by @AndreiJirohHaliliDev2006
+Welcome to the Pins team's English team handbook, which we open-sourced by @AndreiJirohHaliliDev2006.
 
 ## How to Deploy
 
@@ -54,6 +54,6 @@ The project source code is licensed under Mozilla Public License Version 2.0 whi
 Media content, like photos and videos are not covered by the licenses stated above unless otherwise specified.
 
 ## CONTRIBUTING and Handbook Feedback
-For contributions, see the `CONTRIBUTING.md` file in root directory of this repository or at the [live preview website]
+For contributions, see the `CONTRIBUTING.md` file in root directory of this repository or at the [live preview website].
 
 [live preview website]: https://en.handbooksbythepins.cf/about/CONTRIBUTING

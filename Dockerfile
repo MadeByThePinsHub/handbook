@@ -3,9 +3,11 @@ FROM python:3.8-alpine
 
 WORKDIR /usr/workspace/official-handbook-thepinsteam/
 
-COPY requirements.txt /usr/src/app/
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy these requirements to our workspace folder
+COPY requirements.txt /usr/workspace/official-handbook-thepinsteam
+RUN pip install -r requirements.txt
 
+# Then copy the whole local Git repo.
 COPY . /usr/workspace/official-handbook-thepinsteam
 
 # After copying, it will start installing Mkdocs and Material for Mkdocs from requirements.txt

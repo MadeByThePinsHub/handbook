@@ -67,9 +67,9 @@ mkdocs_build:
 
 words_counter:
   stage: build
-  script: scripts/builds/count-words.sh
-  only:
-    - manual
+  script: 
+    - bash ./scripts/builds/count-words.sh
+  allow_failure: true
 
 .dry-run:triage-ops:
   stage: dry-run
