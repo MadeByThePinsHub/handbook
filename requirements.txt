@@ -3,5 +3,5 @@ Pygments
 pymdown-extensions
 mkdocs
 mkdocs-material
-mkdocs-git-revision-date-localized-plugin
 mkdocs-redirects
+mkdocs-git-revision-date-localized-plugin
