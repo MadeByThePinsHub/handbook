@@ -1,4 +1,4 @@
 #!/bin/sh
 echo "Installing dependencies..."
-pip install -u -r requirements.txt
+pip install --user -r requirements.txt
 echo "Success!"
