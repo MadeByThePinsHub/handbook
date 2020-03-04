@@ -71,19 +71,27 @@ words_counter:
     - bash ./scripts/builds/count-words.sh
   allow_failure: true
 
-.dry-run:triage-ops:
+dry-run:triage-ops:
+  image: ruby:latest
   stage: dry-run
-  script: scripts/dry-runs/gl-triage-ops.sh
+  script: 
+    - bash ./scripts/dry-runs/gl-triage-ops.sh
   only:
     - manual
+  except:
+    - schedules
 
-.triage-ops:
+triage-ops:
+  image: ruby:latest
   stage: triage
   script:
+    - gem install gitlab-triage
     # Use your own token! Do not steal.
     - gitlab-triage --token $API_TOKEN --source-id  --host-url $HOST_URL
   only:
     - schedules
+  except:
+    - manual
 
 pages:
   stage: deploy

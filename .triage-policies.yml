@@ -6,15 +6,31 @@ resource_rules:
           date:
             attribute: created_at
             condition: newer_than
-            interval_type: minutes
-            interval: 1
+            interval_type: hours
+            interval: 6
           state: opened
           labels:
             - No Label
         actions:
           labels:
             - documentation
-          comment:
+            - feedback
+          comment: |
+            Hi,
+
+            Thank you for creating an new issue. One of our
+
+            ---
+
   merge_requests:
     rules:
-      []
+      - name: Triaging new merge requests
+        conditions:
+          date:
+            attribute: created_at
+            condition: newer_than
+            interval_type: hours
+            interval_type: 6
+        actions:
+          labels:
+            - "work in progress"

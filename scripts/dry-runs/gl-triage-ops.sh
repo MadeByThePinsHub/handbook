@@ -14,6 +14,11 @@ echo ""
 echo "#########################"
 echo ""
 
+## Install GitLab Triage gem
+gem install gitlab-triage
+
+## Confirm if it's installed successfully.
 gitlab-triage --help
 
+## Then, run its dry-run tests.
 gitlab-triage --dry-run --token $API_TOKEN --source-id $TRIAGE_OPS_SOURCEID --host-url $HOST_URL
