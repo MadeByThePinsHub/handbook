@@ -18,10 +18,18 @@ resource_rules:
           comment: |
             Hi,
 
-            Thank you for creating an new issue. One of our
+            Thank you for creating an new issue. One of our team members will contact you soon
+            and we can't promise that we can reply you shortly.
 
+            In an meanwhile, we are advised to [read the documentation] and [search for solved issues]
+            in our Issue Tracker.
+
+            Regards,
+            Your Friends at The Pins Team
             ---
 
+            [read the documentation]: https://en.handbooksbythepins.cf
+            [search for solved issues]:
   merge_requests:
     rules:
       - name: Triaging new merge requests

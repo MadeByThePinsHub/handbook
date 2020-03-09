@@ -1,7 +1,7 @@
 # Official English Team Handbook
 Welcome to the Pins team's English team handbook, which we open-sourced by @AndreiJirohHaliliDev2006.
 
-## How to Deploy
+## Usage and Deployment
 
 ### GitLab CI
 The GitLab CI configuration is ready to use if you duplicate or fork this project to your side. No extra step required and feel free to customize it on your needs. Just edit and wait for first successful deplyoment.
@@ -55,5 +55,7 @@ Media content, like photos and videos are not covered by the licenses stated abo
 
 ## CONTRIBUTING and Handbook Feedback
 For contributions, see the `CONTRIBUTING.md` file in root directory of this repository or at the [live preview website].
+
+We are also seeking for community feedback
 
 [live preview website]: https://en.handbooksbythepins.cf/about/CONTRIBUTING

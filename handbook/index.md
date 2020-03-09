@@ -42,12 +42,17 @@ DevOps and GitLab is a good partner, but how about Glitch (or even GitPod)?
     * [FAQs](devops/faqs)
         * [Berserk Mode](devops/faqs/berserk-mode)
         * [Keybase](devops/faqs/keybase)
-    * [Secure](devops/secure)
-        * [Verifying PGP keys with Keybase](devops/secure/verfying-keys-with-keybase)
-        * [Public List of Known Keybase USers](devops/secure/members-with-keybase)
+    * [Verify](devops/verify)
+      * [Virtual Environments](devops/verify/virtual-env)
+        * [Virutal Machines](devops/verify/virtual-env/virtual-machines)
+          * [Set Up](devops/verify/virtual-env/virtual-machines/set-up)
     * [Deploy](devops/deploy)
         * [Working with GitLab Pages](devops/deploy/gl-pages)
         * [Working with Glitch and GitLab](devops/deploy/gitlab-and-glitch)
+    * [Secure](devops/secure)
+        * [Verifying PGP keys with Keybase](devops/secure/verfying-keys-with-keybase)
+        * [Public List of Known Keybase USers](devops/secure/members-with-keybase)
+
 
 ### The GitLab way
 How the Pins team uses GitLab and do Git-related stuff the GitLab way like triaging issues and merge requests.

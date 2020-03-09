@@ -15,7 +15,7 @@ theme:
   language: en
 docs_dir: handbook
 
-# For translations to the handbook, refer to https://www.mkdocs.org/user-guide/configuration/#lang and https://squidfunk.github.io/mkdocs-material/getting-started/#localization. Must be same as theme language config above. 
+# For translations to the handbook, refer to https://www.mkdocs.org/user-guide/configuration/#lang and https://squidfunk.github.io/mkdocs-material/getting-started/#localization. Must be same as theme language config above.
 lang: en
 
 # Repository information
@@ -26,13 +26,19 @@ edit_uri: blob/staging/handbook
 # Navigation menu
 # Update this as new
 nav:
-    - 'Introduction': 'index'
+    - 'Introduction': '/'
     - 'About':
       - 'History of Handbook': 'about'
       - 'Copyright Info': 'copyright'
       - 'Team Members Directory': 'directory/team'
     - 'The DevOps Cycle':
       - 'Intro to DevOps': 'devops'
+      - 'Verify':
+        - 'Intro': 'devops/verify'
+        - 'Virtual Environments':
+          - 'Intro': 'devops/verify/virtual-env'
+          - 'Test Suites': 'devops/verify/virtual-env/test-suites'
+          - 'Virtual Machines': 'devops/verify/virtual-env/virtual-machines'
     - 'The GitLab Way':
       - 'GitLab What?': 'the-gitlab-way/#gitlab-what'
       - 'Migrating from GitHub': 'the-gitlab-way/movingtogitlab/github'
@@ -104,7 +110,9 @@ plugins:
           'codenames': 'directory/codenames'
           'team-members': 'directory/team-members'
           'your-first-years/onboarding': 'life-at-the-pins/your-first-weeks/onboarding'
-          'your-first-years/offboarding': 'life-at-the-pins.your-last-weeks/offboarding'
+          'your-last-years/offboarding': 'life-at-the-pins.your-last-weeks/offboarding'
+          'devops/verify/virtual-environments': 'devops/verify/virtual-env'
+          'devops/verify/virtual-environments/vms': 'devops/verify/virtual-env/virtual-machines'
 
 # Some extras
 extra:
