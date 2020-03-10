@@ -10,9 +10,13 @@ theme:
   palette:
     primary: 'red'
     accent: 'red'
-  logo:
-    icon: 'book'
+  icon:
+    logo: 'material/book'
+    repo: fontawesome/brands/gitlab
   language: en
+  features:
+    - tabs
+    - instant
 docs_dir: handbook
 
 # For translations to the handbook, refer to https://www.mkdocs.org/user-guide/configuration/#lang and https://squidfunk.github.io/mkdocs-material/getting-started/#localization. Must be same as theme language config above.
@@ -98,7 +102,10 @@ markdown_extensions:
 
 # Mkdocs Plugins
 plugins:
-    - search
+    - search:
+        separator: '[\s\-\.]+'
+        lang:
+          - en
     - git-revision-date-localized:
         type: iso_datetime
     - redirects:
@@ -117,11 +124,11 @@ plugins:
 # Some extras
 extra:
   social:
-    - type: 'github'
+    - icon: fontawesome/brands/github-alt
       link: 'https://github.com/MadeByThePinsHub'
-    - type: 'twitter'
+    - icon: fontawesome/brands/twitter
       link: 'https://twitter.com/ThePinsTeam'
-    - type: 'gitlab'
+    - icon: fontawesome/brands/gitlab
       link: 'https://gitlab.com/MadeByThePinsTeam-DevLabs'
-    - type: 'telegram'
+    - icon: fontawesome/brands/telegram
       link: 'https://telegram.dog/ThePinsTeamHub'
