@@ -1,6 +1,6 @@
 Markdown
 Pygments
-pymdown-extensions
+pymdown-extensions>=7.0b2
 mkdocs
 mkdocs-material>=5.0.0b3
 mkdocs-redirects
