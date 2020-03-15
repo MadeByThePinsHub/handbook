@@ -1,6 +1,8 @@
 # Official English Team Handbook
 Welcome to the Pins team's English team handbook, which we open-sourced by @AndreiJirohHaliliDev2006.
 
+> **WARNING**: Our handbook is moving to `en.handbooksbythepins.gq` due to an unknow reason that Freenom kept it secret. Please accept our apologies.
+
 ## Usage and Deployment
 
 ### GitLab CI
@@ -12,11 +14,7 @@ You can clone this GitLab into your machine to contribute to the project
 * Clone the project to your machine locally using `git clone` in your command line.
 
 ```bash
-# Download Git to an Linux computer using apt-get
-dekulefthegroup@Not-Literally-Your-Ubuntu-VM: ~$ sudo apt-get install git
-# Enter password for linux-sysadmin: REDACTED
 
-# Afterwards, clone the whole repository.
 # You can specify the folder name like this one.
 # If you forget to do that, you can use this later: mv official-handbook-en ThePinsTeam-OfficialHandbook-en
 dekulefthegroup@Not-Literally-Your-Ubuntu-VM: ~$ git clone https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook-en.git ThePinsTeam-OfficialHandbook-en
@@ -25,7 +23,7 @@ dekulefthegroup@Not-Literally-Your-Ubuntu-VM: ~$ git clone https://gitlab.com/Ma
 dekulefthegroup@Not-Literally-Your-Ubuntu-VM: ~$ cd ThePinsTeam-OfficialHandbook-en
 ```
 
-* In case you don't have Git installed, you can download the source code as an `.zip` file. Extract it somewhere afterwards. Replace `master` in `official-handbook-en-master.zip` to the the branch yu want to export, like `official-handbook-en-staging.zip`
+* In case you don't have Git installed, you can download the source code as an `.zip` file. Extract it somewhere afterwards. Replace `master` in `official-handbook-en-master.zip` to the the branch you want to export, like `official-handbook-en-staging.zip`
 
 ```bash
 # We'll using wget to download those files. After downloading the zipped files, we'll unzip it.
@@ -58,4 +56,4 @@ For contributions, see the `CONTRIBUTING.md` file in root directory of this repo
 
 We are also seeking for community feedback
 
-[live preview website]: https://en.handbooksbythepins.cf/about/CONTRIBUTING
+[live preview website]: https://en.handbooksbythepins.gq/about/CONTRIBUTING

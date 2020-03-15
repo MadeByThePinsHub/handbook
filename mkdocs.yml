@@ -3,7 +3,7 @@
 
 # Basic site config
 site_name: The Pins Team English Handbook
-site_url: https://en.handbooksbythepins.cf
+site_url: https://en.handbooksbythepins.gq
 use_directory_urls: true
 theme:
   name: 'material'
