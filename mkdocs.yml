@@ -30,8 +30,8 @@ edit_uri: blob/staging/handbook
 # Navigation menu
 # Update this as new
 nav:
-    - 'Introduction': '/'
-    - 'About':
+    - 'Introduction':
+      - 'README': '/'
       - 'History of Handbook': 'about'
       - 'Copyright Info': 'copyright'
       - 'Team Members Directory': 'directory/team'
@@ -43,6 +43,9 @@ nav:
           - 'Intro': 'devops/verify/virtual-env'
           - 'Test Suites': 'devops/verify/virtual-env/test-suites'
           - 'Virtual Machines': 'devops/verify/virtual-env/virtual-machines'
+      - 'Secure':
+          - 'PGP Keys and Keybase': 'devops/secure/pgp-keys/keybase'
+          - 'Team Members Using Keybase': 'directory/keybase-users'
     - 'The GitLab Way':
       - 'GitLab What?': 'the-gitlab-way/#gitlab-what'
       - 'Migrating from GitHub': 'the-gitlab-way/movingtogitlab/github'
@@ -120,6 +123,8 @@ plugins:
           'your-last-years/offboarding': 'life-at-the-pins.your-last-weeks/offboarding'
           'devops/verify/virtual-environments': 'devops/verify/virtual-env'
           'devops/verify/virtual-environments/vms': 'devops/verify/virtual-env/virtual-machines'
+          'devops/secure/pgp-keys/keybase': 'devops/secure/verifying-keys-with-keybase'
+          'directory/keybase-users': 'devops/secure/members-with-keybase'
 
 # Some extras
 extra:
