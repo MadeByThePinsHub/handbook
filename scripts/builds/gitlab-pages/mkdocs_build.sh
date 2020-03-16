@@ -27,4 +27,5 @@ cat mkdocs.yml
 mkdocs build
 pause_between_steps "1"
 
-print_status "Standby!"
+print_status "Success!"
+echo 'If something wrong with the script, please contact Support or feel free to edit this script."
