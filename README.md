@@ -1,5 +1,5 @@
 # Official English Team Handbook
-Welcome to the Pins team's English team handbook, which we open-sourced by @AndreiJirohHaliliDev2006.
+Welcome to the Pins team's fully open-sourced English team handbook!
 
 > **WARNING**: Our handbook is moving to `en.handbooksbythepins.gq` due to an unknow reason that Freenom kept it secret. Please accept our apologies.
 
