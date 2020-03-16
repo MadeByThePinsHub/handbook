@@ -38,10 +38,10 @@ dependency_installer:
     - pip install -r requirements.txt
     # - gem install gitlab-triage
 
-mkdocs_buildTester:
+dry-run:mkdocs_buildTester:
   stage: dry-run
   script:
-    - mkdocs build
+    - bash ./scripts/builds/gitlab-pages/mkdocs_build.sh
   artifacts:
     paths:
       - site
