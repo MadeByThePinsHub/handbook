@@ -5,6 +5,7 @@ image: python:3.7
 # only cache local items.
 variables:
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  MKDOCS_EDIT_URI_BUILDS: "blob/$CI_COMMIT_REF_NAME/handbook"
 
 # Pip's cache doesn't store the python packages
 # https://pip.pypa.io/en/stable/reference/pip_install/#caching
@@ -55,7 +56,7 @@ mkdocs_buildTester:
 mkdocs_build:
   stage: build
   script:
-    - mkdocs build
+    - bash ./scripts/builds/gitlab-pages/mkdocs_build.sh
   artifacts:
     paths:
       - site

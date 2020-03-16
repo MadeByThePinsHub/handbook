@@ -25,7 +25,6 @@ lang: en
 # Repository information
 repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook-en
 repo_name: Fork me on Gitlab.com
-edit_uri: blob/staging/handbook
 
 # Navigation menu
 # Update this as new
@@ -35,7 +34,8 @@ nav:
       - 'History of Handbook': 'about'
       - 'Copyright Info': 'copyright'
       - 'Team Members Directory': 'directory/team'
-    - 'The DevOps Cycle':
+      - 'Code of Conduct': 'code-of-conduct'
+    - 'The DevOps Department':
       - 'Intro to DevOps': 'devops'
       - 'Verify':
         - 'Intro': 'devops/verify'
@@ -49,7 +49,6 @@ nav:
     - 'The GitLab Way':
       - 'GitLab What?': 'the-gitlab-way/#gitlab-what'
       - 'Migrating from GitHub': 'the-gitlab-way/movingtogitlab/github'
-    - 'Code of Conduct': 'code-of-conduct'
     - 'Life @ The Pins Team':
       - 'Censorship 101':
         - 'Handling Spoilers': 'life-at-the-pins/censorship-101/handling-spoilers'
@@ -137,3 +136,5 @@ extra:
       link: 'https://gitlab.com/MadeByThePinsTeam-DevLabs'
     - icon: fontawesome/brands/telegram
       link: 'https://telegram.dog/ThePinsTeamHub'
+
+## Edit Link should be end here

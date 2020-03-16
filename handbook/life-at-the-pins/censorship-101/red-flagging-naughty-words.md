@@ -40,4 +40,8 @@ Once an team member reviewed the content, s/he can use the following slash comma
     Locking the whole issue/MR ensures that no outsider will mess things up after our moderators approved the flagging request.
     If it's not, keep it unlocked and keep updated on the top of the hour at that offending thread.
 
-[eat this page]: ./devops/faq/berserk-mode
+[eat this page]: ../../devops/faq/berserk-mode
+
+
+## Red-flagging in Telegram
+Deleting messages with naughty words are handled by the [Commands Triggers Bot]
