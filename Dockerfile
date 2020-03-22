@@ -14,10 +14,10 @@ COPY . /usr/workspace/official-handbook-thepinsteam
 RUN pip install --no-cache-dir -r requirements.txt
 
 ## Next, count the words in the handbook
-CMD find handbook -type f | xargs wc -w
+RUN find handbook -type f | xargs wc -w
 
 # Generate build files after everything are copied.
-CMD mkdocs build
+CMD [ "mkdocs", "build"]
 
 # Rename it into 'public' if deploying to GL Pages
-CMD mv site public
+RUN mv site public

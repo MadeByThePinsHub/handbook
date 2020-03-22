@@ -1,0 +1,8 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - init: pip3 install -r requirements.txt
+    command: mkdocs serve --dev-addr localhost:8080 -v --livereload
+ports:
+  - port: 8080
+    onOpen: open-browser

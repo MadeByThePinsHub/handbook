@@ -1,3 +1,5 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook) 
+
 # Official English Team Handbook
 Welcome to the Pins team's fully open-sourced English team handbook!
 
@@ -14,7 +16,6 @@ You can clone this GitLab into your machine to contribute to the project
 * Clone the project to your machine locally using `git clone` in your command line.
 
 ```bash
-
 # You can specify the folder name like this one.
 # If you forget to do that, you can use this later: mv official-handbook-en ThePinsTeam-OfficialHandbook-en
 dekulefthegroup@Not-Literally-Your-Ubuntu-VM: ~$ git clone https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook-en.git ThePinsTeam-OfficialHandbook-en
@@ -45,6 +46,11 @@ find handbook -type f | xargs wc -w # Wait for the answer, then calucate!
 * Run an new development server by using `mkdocs serve` command. Edit as you go and it'll refreshes every single save. Inspect for any errors and fix it.
 
 * When everything is clear, use `mkdocs build` to generate documentation website files.
+
+### With Gitpod
+Once you open this repository in Gitpod and finished the init process, the dev server will be started on port `8080`.
+
+[![Open in Gitpod](https://www.gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook)
 
 ## License
 The project source code is licensed under Mozilla Public License Version 2.0 while the website is licensed under Creative Commons Attribution-ShareAlike 4.0 Internatinal License. Feel free to remix this repository and use them on your own team.

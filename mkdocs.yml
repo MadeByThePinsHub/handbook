@@ -15,7 +15,6 @@ theme:
     repo: fontawesome/brands/gitlab
   language: en
   features:
-    - tabs
     - instant
 docs_dir: handbook
 
@@ -111,7 +110,7 @@ plugins:
     - git-revision-date-localized:
         type: iso_datetime
     - redirects:
-        "redirect_maps":
+        redirect_maps:
           'remix': "https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/-/forks/new"
           'remix-on-crowin': 'https://crowdin.com'
           # redirect old links to new, working ones
@@ -122,8 +121,6 @@ plugins:
           'your-last-years/offboarding': 'life-at-the-pins.your-last-weeks/offboarding'
           'devops/verify/virtual-environments': 'devops/verify/virtual-env'
           'devops/verify/virtual-environments/vms': 'devops/verify/virtual-env/virtual-machines'
-          'devops/secure/pgp-keys/keybase': 'devops/secure/verifying-keys-with-keybase'
-          'directory/keybase-users': 'devops/secure/members-with-keybase'
 
 # Some extras
 extra:
