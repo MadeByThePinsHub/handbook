@@ -1,4 +1,4 @@
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook) 
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook) [![GitLab Merge Requests Welcome Badge](https://img.shields.io/badge/PRs-welcome!-brightgreen?logo=gitlab)](https://en.handbooksbythepins.gq/about/CONTRIBUTING)
 
 # Official English Team Handbook
 Welcome to the Pins team's fully open-sourced English team handbook!
@@ -51,6 +51,14 @@ find handbook -type f | xargs wc -w # Wait for the answer, then calucate!
 Once you open this repository in Gitpod and finished the init process, the dev server will be started on port `8080`.
 
 [![Open in Gitpod](https://www.gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook)
+
+## CI Status
+CI build statuses are from the original GitLab mirror. If you forked the handbook, please edit the links!
+
+| Environment | Branch | CI Status |
+| ----------- | ------ | --------- |
+| Production | `master` | [![](https://img.shields.io/gitlab/pipeline/MadeByThePinsTeam-DevLabs/official-handbook?style=flat-square&logo=gitlab)]() |
+| Staging | `staging` | [![](https://img.shields.io/gitlab/pipeline/MadeByThePinsTeam-DevLabs/official-handbook/staging?style=flat-square&logo=gitlab)]()
 
 ## License
 The project source code is licensed under Mozilla Public License Version 2.0 while the website is licensed under Creative Commons Attribution-ShareAlike 4.0 Internatinal License. Feel free to remix this repository and use them on your own team.
