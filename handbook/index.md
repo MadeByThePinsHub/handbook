@@ -17,13 +17,14 @@ There are so many articles in our team's Handbook and we have divided it into di
 FAQs about our handbook, the style guide, team and community directories, among other resources.
 
 * [About the Handbook](about)
-    * [Style Guide](about/CONTRIBUTING/style-guide)
+    * [Style Guide](style-guides/handbook)
 * [Team Codenames](codenames)
     * [Codename Policy](codenames#codename-policy)
 * [Hall of Fame](hall-of-fame)
 * [Direcotries](directory)
     * [Team Members' Codenames](directory/codenames)
     * [Team and Community Members](directory/team-members)
+    * [Keybase Users](directory/keybase-users)
 
 ### General
 * [Your First Years at The Pins Team](your-first-years)
@@ -49,10 +50,10 @@ DevOps and GitLab is a good partner, but how about Glitch (or even GitPod)?
     * [Deploy](devops/deploy)
         * [Working with GitLab Pages](devops/deploy/gl-pages)
         * [Working with Glitch and GitLab](devops/deploy/gitlab-and-glitch)
+        * [Working with Gitpod and GitLab](devops/deploy/gitlab-and-gitpod)
     * [Secure](devops/secure)
         * [Verifying PGP keys with Keybase](devops/secure/verfying-keys-with-keybase)
         * [Public List of Known Keybase USers](devops/secure/members-with-keybase)
-
 
 ### The GitLab way
 How the Pins team uses GitLab and do Git-related stuff the GitLab way like triaging issues and merge requests.
@@ -61,10 +62,19 @@ How the Pins team uses GitLab and do Git-related stuff the GitLab way like triag
     * [Triage Operations](the-gitlab-way/triage-ops)
     * [GitLab Runners](the-gitlab-way/runners)
         * [Artifacts Management](the-gitlab-way/runners/artifacts-management)
-            * [Retenting Artifacts](the-gitlab-way/runners/artifacts-management/retention)
+            * [Rentention Policies](the-gitlab-way/runners/artifacts-management/retention)
+
+### Community
+
+* [Community Hub](community)
+    * [Fandoms](community/fandoms)
+        * [Issue Trackers](community/fandoms/issue-trackers)
+        * [Discussion Boards](community/fandoms/discussion-boards)
+    * [Discord](community/discord)
+    * [Telegram](community/telegram)
 
 ### Legal Information
-Copyright blah blah blah, privacy policies and other legal stuff.
+Copyright blah blah blah, privacy policies and other legal stuff. While we have an legal website for legal info, we are not lawyers and attonerys!
 
 * [The Legal Team](legal)
     * [Compliance](legal/global-compliance)
