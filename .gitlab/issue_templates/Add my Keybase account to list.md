@@ -16,3 +16,4 @@ I would like to add my Keybase account to [this public list](https://en.handbook
 * [ ] Commit the changes to `staging` branch, then merge to `master`.
 
 /cc @RecapTime_bot @thepinsteam @andreijirohhalilidev2006
+/addlabel ~"enchancement" ~feedback ~"handbook:directory:keybase"
