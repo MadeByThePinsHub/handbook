@@ -53,6 +53,19 @@ dry-run:mkdocs_buildTester:
     - master
     - staging
 
+staging:mkdocs_build:
+  stage: build
+  script:
+    - bash ./scripts/builds/gitlab-pages_mkdocs.build.sh
+  artifacts:
+    paths:
+      - site
+    expire_in: 7 days
+    when: on_success
+  only:
+    refs:
+      - staging
+
 mkdocs_build:
   stage: build
   script:
@@ -61,13 +74,13 @@ mkdocs_build:
     paths:
       - site
     expire_in: 7 days
+    when: on_success
   only:
     refs:
-      - staging
       - master
 
-words_counter:
-  stage: build
+dry-run:words_counter:
+  stage: dry-run
   script: 
     - bash ./scripts/builds/count-words.sh
   allow_failure: true
@@ -107,3 +120,6 @@ pages:
       - staging
       # Will be removed after merging !1.
       - AndreiJirohHaliliDev2006-master-patch-50547
+  environment:
+    name: staging
+    url: https://en.handbooksbythepins.gq
