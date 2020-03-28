@@ -14,4 +14,6 @@ As more team members are joining Keybase and adding or updating their proofs, we
 Coming soon in the near future, stay tuned in the commit logs.
 
 ## How to update this?
-1. Create a new issue in GitLab using `Add my Keybase account to list`
+1. Create a new issue in GitLab using `Add my Keybase account to list`.
+2. An handbook maintainer or someone from the community will complete the required tasks needed in order to add their account to the list.
+3. If all of the requirements are met, commit to `staging` branch, then merge to `master`.
