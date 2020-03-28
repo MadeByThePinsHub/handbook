@@ -1,0 +1,22 @@
+## Use Version 2.1
+version: "2.1"
+
+## Metadata
+$head: /html/head
+$meta: $head/meta
+
+## Article Info
+title: //h1
+body: //article
+author: "Your Friends at the Pins"
+author_url: "https://gitlab.com/ThePinsTeam"
+channel: "UpdatedFromThePins"
+
+## Configure what we need.
+@replace_tag(<ol>): //div[@class="footnote"]
+<reference>: //li
+
+## Decluttering
+@remove: //h3/a[@class="headerlink"]
+@remove: //h2/a[@class="headerlink"]
+@remove: //div/a[@class="headerlink"]
