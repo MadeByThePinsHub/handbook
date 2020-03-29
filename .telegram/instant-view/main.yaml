@@ -1,22 +1,26 @@
 ## Use Version 2.1
-version: "2.1"
+~version: "2.1"
 
 ## Metadata
 $head: /html/head
 $meta: $head/meta
 
 ## Article Info
+site_name: "The Pins Team Handbook"
 title: //h1
 body: //article
 author: "Your Friends at the Pins"
 author_url: "https://gitlab.com/ThePinsTeam"
 channel: "UpdatedFromThePins"
+published_date: //div[@class="md-source-date"]
 
-## Configure what we need.
+# Replace source tags with its targets...
 @replace_tag(<ol>): //div[@class="footnote"]
-<reference>: //li
+<reference>:
 
-## Decluttering
+# Decluttering
+@remove: //h1/a[@class="headerlink"]
 @remove: //h3/a[@class="headerlink"]
 @remove: //h2/a[@class="headerlink"]
 @remove: //div/a[@class="headerlink"]
+@remove: //div[@class="md-source-date"]

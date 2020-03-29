@@ -1,9 +1,7 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook) [![GitLab Merge Requests Welcome Badge](https://img.shields.io/badge/PRs-welcome!-brightgreen?logo=gitlab)](https://en.handbooksbythepins.gq/about/CONTRIBUTING)
 
 # Official English Team Handbook
-Welcome to the Pins team's fully open-sourced English team handbook!
-
-> **WARNING**: Our handbook is moving to `en.handbooksbythepins.gq` due to an unknow reason that Freenom kept it secret. Please accept our apologies.
+Welcome to the Pins team's fully open-sourced English team handbook! This is where the source files for the English Handbook website (`en.handbooksbythepins.gq`) hosted and generate with Mkdocs which are handled by the GitLab CI.
 
 ## Usage and Deployment
 
@@ -50,7 +48,7 @@ find handbook -type f | xargs wc -w # Wait for the answer, then calucate!
 ### With Gitpod
 Once you open this repository in Gitpod and finished the init process, the dev server will be started on port `8080`.
 
-[![Open in Gitpod](https://www.gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook)
+[![Open in Gitpod](https://www.gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://gitlab.com/MadeByThePinsTeam-DevLabs/handbook)
 
 ## CI Status
 CI build statuses are from the original GitLab mirror. If you forked the handbook, please edit the links!
@@ -68,6 +66,6 @@ Media content, like photos and videos are not covered by the licenses stated abo
 ## CONTRIBUTING and Handbook Feedback
 For contributions, see the `CONTRIBUTING.md` file in root directory of this repository or at the [live preview website].
 
-We are also seeking for community feedback
+We are also seeking for community feedback in improving the handbook, so feel free to remix and edit.
 
 [live preview website]: https://en.handbooksbythepins.gq/about/CONTRIBUTING
