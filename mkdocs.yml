@@ -22,11 +22,11 @@ docs_dir: handbook
 lang: en
 
 # Repository information
-repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook-en
+repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook
 repo_name: Fork me on Gitlab.com
 
 # Navigation menu
-# Update this as new
+# Update this as new content are available.
 nav:
     - 'Introduction':
       - 'README': '/'
@@ -48,6 +48,10 @@ nav:
     - 'The GitLab Way':
       - 'GitLab What?': 'the-gitlab-way/#gitlab-what'
       - 'Migrating from GitHub': 'the-gitlab-way/movingtogitlab/github'
+      - 'Triage Operations':
+        - 'Index': 'the-gitlab-way/triage-ops'
+      - 'GitLab Runners':
+        - 'Managing Artifacts': the-gitlab-way/artifacts-management
     - 'Life @ The Pins Team':
       - 'Censorship 101':
         - 'Handling Spoilers': 'life-at-the-pins/censorship-101/handling-spoilers'
