@@ -5,7 +5,7 @@ tasks:
     command: mkdocs serve --dev-addr localhost:8080 -v --livereload
 ports:
   - port: 8080
-    onOpen: open-browser
+    onOpen: open-preview
   - port: 8000
     onOpen: open-preview
   - port: 3000
