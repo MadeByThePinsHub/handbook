@@ -66,12 +66,13 @@ How the Pins team uses GitLab and do Git-related stuff the GitLab way like triag
 
 ### Community
 
-* [Community Hub](community)
-    * [Fandoms](community/fandoms)
-        * [Issue Trackers](community/fandoms/issue-trackers)
-        * [Discussion Boards](community/fandoms/discussion-boards)
-    * [Discord](community/discord)
-    * [Telegram](community/telegram)
+* [Community Hub](community-hub)
+    * [Fandoms](community-hub/fandoms)
+        * [Issue Trackers](community-hub/fandoms/issue-trackers)
+        * [Discussion Boards](community-hub/fandoms/discussion-boards)
+    * [Discord](community-hub/discord)
+    * [Telegram](community-hub/telegram)
+    * [Policies](community-hub/policies)
 
 ### Legal Information
 Copyright blah blah blah, privacy policies and other legal stuff. While we have an legal website for legal info, we are not lawyers and attonerys!
@@ -81,7 +82,7 @@ Copyright blah blah blah, privacy policies and other legal stuff. While we have 
     * [The Code of Conduct](about/code-of-conduct)
     * [Copyright Info](copyright)
 
-## Open-source and always open to community feedback and improvements.
+## Open for community feedback
 Your contributions are licensed under both Mozilla Public License Version 2.0+ and Creative Commons Attribution-ShareAlike International License 4.0+.
 
 You are free to fork, remix, and use our handbook in any form, but you are required to give attribution and license under the same terms, unless otherwise specified in your IP permission request in the Issue Tracker.[^2]
