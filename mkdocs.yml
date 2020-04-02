@@ -23,7 +23,7 @@ lang: en
 
 # Repository information
 repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook
-repo_name: Fork me on Gitlab.com
+repo_name: View source on GitLab
 
 # Navigation menu
 # Update this as new content are available.
@@ -139,6 +139,6 @@ extra:
     - icon: fontawesome/brands/gitlab
       link: 'https://gitlab.com/MadeByThePinsTeam-DevLabs'
     - icon: fontawesome/brands/telegram
-      link: 'https://telegram.dog/ThePinsTeamHub'
+      link: 'https://telegram.dog/UpdatesFromThePins'
 
 ## Edit Link should be end here
