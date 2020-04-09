@@ -6,17 +6,22 @@ In this category in our handbook, we have:
 
 * [Limitations on our Hosting Provider](#limitations)
 * [FAQs](faqs)
-* [Server Rules](server-rules)
+* [Server Rules](rules)
 
 ## Official Servers
 The following list below are official servers managed by the Pins team.
 
-| Server | URL | Software | Players Limit[^3] |
-| ------ | --- | -------- | ----- |
-| Community | [`thepinsteamcommunity.aternos.me`](https://thepinsteamcommunity.aternos.me) | Java Edition - Spigot 1.15.2[^1] | 600 |
+| Server Name and Status | Original Server IP | Custom Server IP | Software | Players Limit[^3] |
+| ------ | --- | -------- | -------- | ----- |
+| Community (`Work in Progress`) | [`thepinsteamcommunity.aternos.me`](https://thepinsteamcommunity.aternos.me) | n/a | Java Edition - Spigot 1.15.2[^1] | 600 |
 
 ## Community-managed Servers
 Have an community-managed server for the Pins team and its community? Please create a new issue in our Issue Tracker.
+
+## Servers Managed by the Pins
+| Server Name and Status | Original Server IP | Custom Server IP | Software | Players Limit |
+| ----- | ----- | ----- | ----- | ----- |
+| Sequel Clan's Server (`Currently for Whitelisted Players Only`) | soon | n/a | Java Edition - Spigot 1.15.2 | 20 |
 
 ## Limitations
 There are some limitations that our provider did set. We apologixe for any issues due to these limitations.
