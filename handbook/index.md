@@ -73,6 +73,10 @@ How the Pins team uses GitLab and do Git-related stuff the GitLab way like triag
     * [Discord](community-hub/discord)
     * [Telegram](community-hub/telegram)
     * [Policies](community-hub/policies)
+* [Minecraft Servers](minecraft-servers)
+    * [Rules](minecraft-servers/rules)
+    * [FAQs](minecraft-servers/faqs)
+    * [Support](minecraft-servers/support)
 
 ### Legal Information
 Copyright blah blah blah, privacy policies and other legal stuff. While we have an legal website for legal info, we are not lawyers and attonerys!

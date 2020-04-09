@@ -61,7 +61,10 @@ nav:
         - 'List of Team and Community Members': 'directory/team-members'
     - 'Minecraft Servers':
       - 'Official Servers': 'minecraft-servers/#official-servers'
+      - 'Community-managed Servers': 'minecraft-servers/#community-managed-servers'
+      - 'Servers Managed by the Pins': 'minecraft-servers/#servers-managed-by-the-pins'
       - 'Limitations on Provider-side': 'minecraft-servers/#limitations'
+      - 'Server Rules': 'minecraft-servers/rules'
     - 'In other Languages':
       - 'Fork to localize': "https://gitlab.com/MadeByThePinsTeam-DevLabs/Official-Handbook/-/forks/new"
       - 'Available Translations': 'select-language'
