@@ -18,6 +18,7 @@ FAQs about our handbook, the style guide, team and community directories, among 
 
 * [About the Handbook](about)
     * [Style Guide](style-guides/handbook)
+    * [Contribute](about/CONTRIBUTING)
 * [Team Codenames](codenames)
     * [Codename Policy](codenames#codename-policy)
 * [Hall of Fame](hall-of-fame)
