@@ -50,13 +50,27 @@ dry-run:mkdocs_buildTester:
     refs:
       - branches
   except:
+    - develop
     - master
     - staging
+
+develop:mkdocs_build:
+  stage: build
+  script:
+    - bash ./scripts/builds/gitlab-pages/mkdocs_build.sh
+  artifacts:
+    paths:
+      - site
+    expire_in: 7 days
+    when: on_success
+  only:
+    refs:
+      - develop
 
 staging:mkdocs_build:
   stage: build
   script:
-    - bash ./scripts/builds/gitlab-pages_mkdocs.build.sh
+    - bash ./scripts/builds/gitlab-pages/mkdocs_build.sh
   artifacts:
     paths:
       - site
@@ -117,9 +131,7 @@ pages:
     expire_in: 30 days
   only:
     refs:
-      - staging
-      # Will be removed after merging !1.
-      - AndreiJirohHaliliDev2006-master-patch-50547
+      - develop
   environment:
     name: staging
     url: https://en.handbooksbythepins.gq
