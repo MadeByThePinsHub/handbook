@@ -28,12 +28,10 @@ repo_name: View source on GitLab
 # Navigation menu
 # Update this as new content are available.
 nav:
-    - 'Introduction':
-      - 'README': '/'
-      - 'History of Handbook': 'about'
-      - 'Copyright Info': 'copyright'
-      - 'Team Members Directory': 'directory/team'
-      - 'Code of Conduct': 'code-of-conduct'
+    - 'README': '/'
+    - 'History of Handbook': 'about'
+    - 'Copyright Info': 'copyright'
+    - 'Code of Conduct': 'code-of-conduct'
     - 'The DevOps Department':
       - 'Intro to DevOps': 'devops'
       - 'Verify':
@@ -144,5 +142,9 @@ extra:
       link: 'https://gitlab.com/MadeByThePinsTeam-DevLabs'
     - icon: fontawesome/brands/telegram
       link: 'https://telegram.dog/UpdatesFromThePins'
+
+## IF you had a Github fork, keep it 'gh-pages'.
+remote_name: origin
+remote_branch: gh-pages
 
 ## Edit Link should be end here
