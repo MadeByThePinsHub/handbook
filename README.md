@@ -55,9 +55,9 @@ CI build statuses are from the original GitLab mirror. If you forked the handboo
 
 | Environment | Branch | CI Status |
 | ----------- | ------ | --------- |
-| Production | `master` | [![](https://img.shields.io/gitlab/pipeline/MadeByThePinsTeam-DevLabs/official-handbook?style=flat-square&logo=gitlab)]() |
-| Staging | `staging` | [![](https://img.shields.io/gitlab/pipeline/MadeByThePinsTeam-DevLabs/official-handbook/staging?style=flat-square&logo=gitlab)]() |
-| Development | `develop` | [![](https://img.shields.io/gitlab/pipeline/MadeByThePinsTeam-DevLabs/official-handbook/develop?style=flat-square&logo=gitlab)]() |
+| Production | `master` | [![](https://img.shields.io/gitlab/pipeline/MadeByThePinsTeam-DevLabs/official-handbook?style=flat-square&logo=gitlab)](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/tree/master) |
+| Staging | `staging` | [![](https://img.shields.io/gitlab/pipeline/MadeByThePinsTeam-DevLabs/official-handbook/staging?style=flat-square&logo=gitlab)](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/tree/staging) |
+| Development | `develop` | [![](https://img.shields.io/gitlab/pipeline/MadeByThePinsTeam-DevLabs/official-handbook/develop?style=flat-square&logo=gitlab)](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/tree/develop) |
 
 ## License
 The project source code is licensed under Mozilla Public License Version 2.0 while the website is licensed under Creative Commons Attribution-ShareAlike 4.0 Internatinal License. Feel free to remix this repository and use them on your own team.
