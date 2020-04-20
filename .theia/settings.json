@@ -1,3 +1,7 @@
+// Editor settings for Theia/Gitpod
+// Editing this file should follows Microsoft's VS Code reference for this file
+
 {
-    "editor.autoSave": "on"
+    "editor.autoSave": "on",
+    "editor.autoSaveDelay": 5000 // save every 5 seconds
 }

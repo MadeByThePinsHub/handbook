@@ -1,0 +1,27 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+        {
+            "label": "Manually install dependencies",
+            "type": "shell",
+            "command": "pip install -r requirements.txt",
+            "group": "none",
+        },
+		{
+			"label": "Build website and push to GitHub Pages",
+			"type": "shell",
+			"command": "mkdocs",
+            "args": ["gh-deploy", "-v"],
+            "group": "build"
+		},
+        {
+            "label": "Preview website locally in port 3000",
+            "type": "shell",
+            "command": "mkdocs",
+            "args": ["serve", "-a localhost:3000", "-v"],
+            "group": "test"
+        }
+	]
+}

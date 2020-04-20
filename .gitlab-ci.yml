@@ -5,7 +5,7 @@ image: python:3.8.2
 # only cache local items.
 variables:
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
-  MKDOCS_EDIT_URI_BUILDS: "blob/$CI_COMMIT_REF_NAME/handbook"
+  BUILDS_TYPE: "develop"
 
 # Pip's cache doesn't store the python packages
 # https://pip.pypa.io/en/stable/reference/pip_install/#caching
@@ -79,6 +79,8 @@ staging:mkdocs_build:
   only:
     refs:
       - staging
+  variables:
+    BUILDS_TYPE: "staging"
 
 mkdocs_build:
   stage: build
@@ -92,6 +94,8 @@ mkdocs_build:
   only:
     refs:
       - master
+  variables:
+    BUILDS_TYPE: "production"
 
 dry-run:words_counter:
   stage: dry-run

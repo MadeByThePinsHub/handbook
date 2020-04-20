@@ -50,6 +50,7 @@ Once you open this repository in Gitpod and finished the init process, the dev s
 
 [![Open in Gitpod](https://www.gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://gitlab.com/MadeByThePinsTeam-DevLabs/handbook)
 
+See `handbook/about/CONTRIBUTING/using-gitpod.md` for details on how you can use Gitpod in contributing to the project.
 ## CI Status
 CI build statuses are from the original GitLab mirror. If you forked the handbook, please edit the links!
 

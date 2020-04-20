@@ -28,7 +28,7 @@ repo_name: View source on GitLab
 # Navigation menu
 # Update this as new content are available.
 nav:
-    - 'README': '/'
+    - 'README': 'index'
     - 'History of Handbook': 'about'
     - 'Copyright Info': 'copyright'
     - 'Code of Conduct': 'code-of-conduct'
@@ -147,4 +147,5 @@ extra:
 remote_name: origin
 remote_branch: gh-pages
 
-## Edit Link should be end here
+## Edit link for the 'develop' branch. Use available files for different stuff.
+edit_uri: blob/develop/handbook
