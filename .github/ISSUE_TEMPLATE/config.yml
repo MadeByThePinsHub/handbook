@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GitLab Issue Tracker
+    url: https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/issues/new
+    about: Since you are in GitHub mirror, we recommend to use our GitLab Issue Tracker instea.
+  - name: Contribution Policies
+    url: https://en.handbooksbythepins.gq/about/CONTRIBUTING
+    about: Before you ever create a issue in GitHub, please review our contribution policies.

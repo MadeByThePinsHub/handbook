@@ -6,7 +6,7 @@ summary: The main page of the Pins team's official Handbook.
 Welcome to the Pins team's official English Handbook! This is where the whole handbook lives and resides, mostly adopted from GitLab Handbook.
 
 !!! warning "Heads up, the handbook is still work-in-progress. Feedback is appericated! :love:"
-    You'll seeing this because most of the deployments are either from the `staging` branch or from
+    You'll seeing this because most of the deployments are either from the `develop` branch or from
     [an branch we're working](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/pipelines). For any feedback about this preview,
     use our [issue tracker](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/issues) in GitLab.com.
 
@@ -19,8 +19,6 @@ FAQs about our handbook, the style guide, team and community directories, among 
 * [About the Handbook](about)
     * [Style Guide](style-guides/handbook)
     * [Contribute](about/CONTRIBUTING)
-* [Team Codenames](codenames)
-    * [Codename Policy](codenames#codename-policy)
 * [Hall of Fame](hall-of-fame)
 * [Direcotries](directory)
     * [Team Members' Codenames](directory/codenames)
@@ -30,7 +28,7 @@ FAQs about our handbook, the style guide, team and community directories, among 
 ### General
 * [Your First Years at The Pins Team](your-first-years)
     * [Onboarding](your-first-years/onboarding)[^1]
-    * [Offboarding](your-first-years/offboarding)[^1]
+    * [Offboarding](your-first-years/offboarding)[^3]
 * [Life at the Pins team](life-at-the-pins)
     * [Censorship 101](life-at-the-pins/censorship-101)
         * [Handling Spoilers](handbook/life-at-the-pins/censorship-101/handling-spoilers)
@@ -71,6 +69,7 @@ How the Pins team uses GitLab and do Git-related stuff the GitLab way like triag
     * [Fandoms](community-hub/fandoms)
         * [Issue Trackers](community-hub/fandoms/issue-trackers)
         * [Discussion Boards](community-hub/fandoms/discussion-boards)
+        * [Frequent Asked Questions](community-hub/fandoms/faqs)
     * [Discord](community-hub/discord)
     * [Telegram](community-hub/telegram)
     * [Policies](community-hub/policies)
