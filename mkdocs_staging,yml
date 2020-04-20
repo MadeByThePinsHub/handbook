@@ -1,0 +1,150 @@
+## This file is for the staging environment. Please proceed with caution on editing!
+
+# Basic site config
+site_name: The Pins Team English Handbook
+site_url: https://en.handbooksbythepins.gq
+use_directory_urls: true
+theme:
+  name: 'material'
+  palette:
+    primary: 'red'
+    accent: 'red'
+  icon:
+    logo: 'material/book'
+    repo: fontawesome/brands/gitlab
+  language: en
+  features:
+    - instant
+docs_dir: handbook
+
+# For translations to the handbook, refer to https://www.mkdocs.org/user-guide/configuration/#lang and https://squidfunk.github.io/mkdocs-material/getting-started/#localization. Must be same as theme language config above.
+lang: en
+
+# Repository information
+repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook
+repo_name: View source on GitLab
+
+# Navigation menu
+# Update this as new content are available.
+nav:
+    - 'README': 'index'
+    - 'History of Handbook': 'about'
+    - 'Copyright Info': 'copyright'
+    - 'Code of Conduct': 'code-of-conduct'
+    - 'The DevOps Department':
+      - 'Intro to DevOps': 'devops'
+      - 'Verify':
+        - 'Intro': 'devops/verify'
+        - 'Virtual Environments':
+          - 'Intro': 'devops/verify/virtual-env'
+          - 'Test Suites': 'devops/verify/virtual-env/test-suites'
+          - 'Virtual Machines': 'devops/verify/virtual-env/virtual-machines'
+      - 'Secure':
+          - 'PGP Keys and Keybase': 'devops/secure/pgp-keys/keybase'
+          - 'Team Members Using Keybase': 'directory/keybase-users'
+    - 'The GitLab Way':
+      - 'GitLab What?': 'the-gitlab-way/#gitlab-what'
+      - 'Migrating from GitHub': 'the-gitlab-way/movingtogitlab/github'
+      - 'Triage Operations':
+        - 'Index': 'the-gitlab-way/triage-ops'
+      - 'GitLab Runners':
+        - 'Managing Artifacts': the-gitlab-way/artifacts-management
+    - 'Life @ The Pins Team':
+      - 'Censorship 101':
+        - 'Handling Spoilers': 'life-at-the-pins/censorship-101/handling-spoilers'
+        - 'Red Flagging Naughty Words': 'life-at-the-pins/censorship-101/red-flagging-naughty-words'
+      - 'Directory':
+        - 'Team Member Codenames': 'directory/codenames'
+        - 'List of Team and Community Members': 'directory/team-members'
+    - 'Minecraft Servers':
+      - 'Official Servers': 'minecraft-servers/#official-servers'
+      - 'Community-managed Servers': 'minecraft-servers/#community-managed-servers'
+      - 'Servers Managed by the Pins': 'minecraft-servers/#servers-managed-by-the-pins'
+      - 'Limitations on Provider-side': 'minecraft-servers/#limitations'
+      - 'Server Rules': 'minecraft-servers/rules'
+    - 'In other Languages':
+      - 'Fork to localize': "https://gitlab.com/MadeByThePinsTeam-DevLabs/Official-Handbook/-/forks/new"
+      - 'Available Translations': 'select-language'
+
+# Markdown extensions and other plugins
+# For Markdown extensions for Python, see https://python-markdown.github.io/extensions/ for the full list.
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.highlight:
+  #     linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      provider: GitLab
+      user: MadeByThePinsTeam-DevLabs
+      repo: official-handbook
+      labels: {
+        'pull': 'Merge Request'
+      }
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Mkdocs Plugins
+plugins:
+    - search:
+        separator: '[\s\-\.]+'
+        lang:
+          - en
+    - git-revision-date-localized:
+        type: iso_datetime
+    - redirects:
+        redirect_maps:
+          'remix': "https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/-/forks/new"
+          'remix-on-crowin': 'https://crowdin.com'
+          # redirect old links to new, working ones
+          # avoid multiple redirects as it hurts performance!
+          'codenames': 'directory/codenames'
+          'team-members': 'directory/team-members'
+          'your-first-years/onboarding': 'life-at-the-pins/your-first-weeks/onboarding'
+          'your-last-years/offboarding': 'life-at-the-pins.your-last-weeks/offboarding'
+          'devops/verify/virtual-environments': 'devops/verify/virtual-env'
+          'devops/verify/virtual-environments/vms': 'devops/verify/virtual-env/virtual-machines'
+
+# Some extras
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: 'https://github.com/MadeByThePinsHub'
+    - icon: fontawesome/brands/twitter
+      link: 'https://twitter.com/ThePinsTeam'
+    - icon: fontawesome/brands/gitlab
+      link: 'https://gitlab.com/MadeByThePinsTeam-DevLabs'
+    - icon: fontawesome/brands/telegram
+      link: 'https://telegram.dog/UpdatesFromThePins'
+
+## IF you had a Github fork, keep it 'gh-pages'.
+remote_name: origin
+remote_branch: gh-pages
+
+## Edit link for the 'staging' branch. Use available files for different stuff.
+edit_uri: blob/staging/handbook

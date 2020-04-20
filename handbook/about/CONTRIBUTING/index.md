@@ -8,6 +8,8 @@ Interested in contributing to te team's handbook? Want to translate this into yo
 bug as you viewing the website? Before you do this, please read our contributing guide first.
 
 ## Available Tasks
+More taks come soon! To keep you updated, return back here every week for new available tasks.
+
 ### Translating the Handbook
 The team is open for handbook translations though two ways: using Crowdin and forking the whole repository.
 While we use Crowdin for community input, we still allow you to fork our handbook and improve it.
@@ -32,9 +34,9 @@ For quick questions there's no need to open an issue as you can reach us on
 ### Found a bug?
 
 If you found a bug in the documentation, CI logs or even in the source files, you can help us by 
-submitting an issueto the [issue tracker][issue-tracker] in our GitLab repository.
-Even better, you can submit a Pull Request with a fix. However, before doing so,
-please read the [submission guidelines][guielines].
+submitting an issue to the [issue tracker][issue-tracker] in our GitLab repository.
+Even better, you can submit a Merge Request with a fix. However, before doing so,
+please read the [submission guidelines][guidelines].
 
   [issue-tracker]: https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/issues
   [guidelines]: #contribution-guidelines
@@ -57,7 +59,7 @@ custom issue template. Please stick to the issue template.
 Unfortunately we are not able to investigate / fix bugs without a minimal
 reproduction scenario, so if we don't hear back from you we may close the issue.
 
-### Submitting a Pull Request (PR)
+### Submitting a Merge Request (MR)
 
 Search GitLab for an open or closed PR that relates to your submission. You
 don't want to duplicate effort. If you do not find a related issue or PR,
@@ -68,17 +70,19 @@ go ahead.
   your commits.
 
 2. **Build**: Before submitting a pull requests, [build the handbook site locally][build]. This is
-  a mandatory requirement for your PR to get accepted, as the theme should at
-  all times be installable through GitHub.
+  a mandatory requirement for your PR to get accepted. If you customized the theme we are using,
+  please allow us to review them for a while.
 
-3. **Pull Request**: After building the theme, commit the compiled output, push
-  your branch to GitHub and send a PR to `mkdocs-material:master`. If we
-  suggest changes, make the required updates, rebase your branch and push the
-  changes to your GitHub repository, which will automatically update your PR.
+3. **Pull Request**: After building the website, commit the compiled website output to `gh-pages`, push
+  your branch to GitHub and send a PR to `official-handbook:develop` (for GitLab) or `official-team-handbook:develop`
+  (for GitHub). If we suggest changes, make the required updates, rebase your branch and push
+  the changes to your fork, which will automatically update your PR.[^1]
 
-After your PR is merged, you can safely delete your branch and pull the changes
-from the main (upstream) repository.
+When your MR is successfully merged, feel free to delete your branch and check our post-merge CI
+logs.
 
-  [4]: https://squidfunk.github.io/mkdocs-material/customization/#environment-setup
-  [5]: https://squidfunk.github.io/mkdocs-material/customization/#build-process
+  [dev-env]: getting-started#setting-up-your-dev-environment
+  [build]: getting-started#build-process
   [remix-on-gitlab]: https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/-/forks/new
+  [^1]: Forked ours in BitBucket? While we can merge your fork into our BitBucket mirror, it might take some
+  time for us to push to GitLab. We recommend to use GitHub or GitLab instead in this case
