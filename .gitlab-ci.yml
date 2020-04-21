@@ -137,5 +137,10 @@ pages:
     refs:
       - develop
   environment:
-    name: staging
+    name: develop
     url: https://en.handbooksbythepins.gq
+
+gh-pages:
+  stage: deploy
+  script:
+    - bash ./scripts/builds/github/gh-pages.sh

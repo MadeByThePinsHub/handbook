@@ -15,7 +15,9 @@ pause_between_steps() {
 BUILDS_TYPE=$BUILDS_TYPE
 
 ## WARNING: Using this command alone will export GitLab CI's deepest secrets!
-print_status "Checking for available env variables..."
+print_status "[INFO] Checking for available env variables..."
+echo "[WARN] Using this command alone will show up the GitLab CI's deepest secrets like email and tokens You have been warned!"
+pause_between_steps "5"
 export
 pause_between_steps "3"
 
