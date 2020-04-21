@@ -16,6 +16,7 @@ theme:
   language: en
   features:
     - instant
+    - tabs
 docs_dir: handbook
 
 # For translations to the handbook, refer to https://www.mkdocs.org/user-guide/configuration/#lang and https://squidfunk.github.io/mkdocs-material/getting-started/#localization. Must be same as theme language config above.
@@ -32,7 +33,7 @@ nav:
     - 'History of Handbook': 'about'
     - 'Copyright Info': 'copyright'
     - 'Code of Conduct': 'code-of-conduct'
-    - 'The DevOps Department':
+    - 'DevOps':
       - 'Intro to DevOps': 'devops'
       - 'Verify':
         - 'Intro': 'devops/verify'
@@ -43,26 +44,28 @@ nav:
       - 'Secure':
           - 'PGP Keys and Keybase': 'devops/secure/pgp-keys/keybase'
           - 'Team Members Using Keybase': 'directory/keybase-users'
-    - 'The GitLab Way':
+    - 'GitLab':
       - 'GitLab What?': 'the-gitlab-way/#gitlab-what'
       - 'Migrating from GitHub': 'the-gitlab-way/movingtogitlab/github'
       - 'Triage Operations':
         - 'Index': 'the-gitlab-way/triage-ops'
       - 'GitLab Runners':
         - 'Managing Artifacts': the-gitlab-way/artifacts-management
-    - 'Life @ The Pins Team':
+    - 'Life at the Pins Team':
       - 'Censorship 101':
         - 'Handling Spoilers': 'life-at-the-pins/censorship-101/handling-spoilers'
         - 'Red Flagging Naughty Words': 'life-at-the-pins/censorship-101/red-flagging-naughty-words'
       - 'Directory':
         - 'Team Member Codenames': 'directory/codenames'
         - 'List of Team and Community Members': 'directory/team-members'
-    - 'Minecraft Servers':
-      - 'Official Servers': 'minecraft-servers/#official-servers'
-      - 'Community-managed Servers': 'minecraft-servers/#community-managed-servers'
-      - 'Servers Managed by the Pins': 'minecraft-servers/#servers-managed-by-the-pins'
-      - 'Limitations on Provider-side': 'minecraft-servers/#limitations'
-      - 'Server Rules': 'minecraft-servers/rules'
+    - 'Community Hub':
+      - 'Index': 'community-hub'
+      - 'Minecraft Servers':
+        - 'Official Servers': 'minecraft-servers/#official-servers'
+        - 'Community-managed Servers': 'minecraft-servers/#community-managed-servers'
+        - 'Servers Managed by the Pins': 'minecraft-servers/#servers-managed-by-the-pins'
+        - 'Limitations on Provider-side': 'minecraft-servers/#limitations'
+        - 'Server Rules': 'minecraft-servers/rules'
     - 'In other Languages':
       - 'Fork to localize': "https://gitlab.com/MadeByThePinsTeam-DevLabs/Official-Handbook/-/forks/new"
       - 'Available Translations': 'select-language'

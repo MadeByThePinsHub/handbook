@@ -2,11 +2,11 @@ image:
   file: .gitpod.Dockerfile
 tasks:
   - init: pip3 install -r requirements.txt
-    command: mkdocs serve --dev-addr localhost:8080 -v --livereload
+    command: mkdocs serve --dev-addr localhost:3000 -v --livereload
 ports:
   - port: 8080
-    onOpen: open-preview
+    onOpen: notify
   - port: 8000
-    onOpen: open-preview
+    onOpen: notify
   - port: 3000
-    onOpen: open-preview
+    onOpen: notify

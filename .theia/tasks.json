@@ -20,8 +20,8 @@
             "label": "Preview website locally in port 3000",
             "type": "shell",
             "command": "mkdocs",
-            "args": ["serve", "-a localhost:3000", "-v"],
-            "group": "test"
+            "args": ["serve", "-a http://localhost:3000", "-v"],
+            "group": {"kind": "test", "isDefault": true}
         }
 	]
 }
