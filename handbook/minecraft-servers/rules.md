@@ -34,6 +34,7 @@ If any player violate any of the rules in repeative manner, it should extend the
 | **General** | **Chat** | :warning: | :mute: | :no_entry: |
 
 Legend for Emojis:
+
 - :warning: = Warn from server staffs
 - :mute: = Muted
 - :no_entry: = IP Ban/Username Ban
