@@ -1,0 +1,61 @@
+name: Mkdocs Site Generator for GitHub Pages
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checking things out
+        uses: actions/checkout@v2
+
+      - name: Warm up Python 3.x
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.6'
+          architecture: 'x64'
+
+      - name: Prepare our dependencies to get cached
+        uses: actions/cache@v1
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Installing dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install -r ./requirements.txt
+
+      - name: Documentation site builds
+        run: mkdocs build
+
+      - name: Create a build snapshot by uploading artifact
+        uses: actions/upload-artifact@v1.0.0
+        with:
+          # Artifact name
+          name: Documentation Site Build Snapshots
+          # Directory containing files to upload
+          path: site
+          
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          ## If remixing on GitHub, don't forget to add your own personal token as a encrypted secret!
+          github_token: ${{ secrets.PERSONAL_TOKEN }}
+          ## Use the 'site' directory for deployment.
+          publish_dir: ./site
+          ## Make our GH Pages-built docs to accessible on the address below. Please edit this when remixing!
+          cname: gh-pages-en.handbooksbythepins.gq
+          allow_empty_commits: true
+          ## Keep the files in the 'gh-pages' branch.
+          keep_files: true
+          ## Use our service account for commits
+          user_name: 'Recap Time Bot'
+          user_email: 'service-accounts+github@devhubcentral.ml'
+          ## Customize our commit messages.
+          commit_message: Updating the static website files for English handbook [Built from development branch's commit ${GITHUB_SHA}]
