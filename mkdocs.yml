@@ -52,6 +52,7 @@ nav:
       - 'GitLab Runners':
         - 'Managing Artifacts': the-gitlab-way/artifacts-management/index.md
     - 'Life at the Pins Team':
+      - 'README': 'life-at-the-pins/index.md'
       - 'Censorship 101':
         - 'Handling Spoilers': 'life-at-the-pins/censorship-101/handling-spoilers.md'
         - 'Red Flagging Naughty Words': 'life-at-the-pins/censorship-101/red-flagging-naughty-words.md'
@@ -146,7 +147,7 @@ extra:
     - icon: fontawesome/brands/telegram
       link: 'https://telegram.dog/UpdatesFromThePins'
 
-## IF you had a Github fork, keep it 'gh-pages'.
+## If you had a Github fork, keep it 'gh-pages'.
 remote_name: origin
 remote_branch: gh-pages
 

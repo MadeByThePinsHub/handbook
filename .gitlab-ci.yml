@@ -31,6 +31,7 @@ dependency_installer:
     - pip install -r requirements.txt
 
 dry-run:mkdocs_buildTester:
+  image: python:3.7
   stage: dry-run
   script:
     - pip install virtualenv
@@ -50,6 +51,7 @@ dry-run:mkdocs_buildTester:
     - staging
 
 develop:mkdocs_build:
+  image: python:3.7
   stage: build
   script:
     - pip install virtualenv
@@ -66,8 +68,12 @@ develop:mkdocs_build:
       - develop
 
 staging:mkdocs_build:
+  image: python:3.7
   stage: build
   script:
+    - pip install virtualenv
+    - virtualenv venv
+    - source venv/bin/activate
     - bash ./scripts/builds/gitlab-pages/mkdocs_build.sh
   artifacts:
     paths:
@@ -81,6 +87,7 @@ staging:mkdocs_build:
     BUILDS_TYPE: "staging"
 
 mkdocs_build:
+  image: python:3.7
   stage: build
   script:
     - pip install virtualenv
@@ -99,6 +106,7 @@ mkdocs_build:
     BUILDS_TYPE: "production"
 
 dry-run:words_counter:
+  image: alpine:latest
   stage: dry-run
   script: 
     - bash ./scripts/builds/count-words.sh
@@ -127,6 +135,7 @@ triage-ops:
     - manual
 
 pages:
+  image: alpine:latest
   stage: deploy
   script:
     - mv site public

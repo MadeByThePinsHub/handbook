@@ -58,4 +58,4 @@ jobs:
           user_name: 'Recap Time Bot'
           user_email: 'service-accounts+github@devhubcentral.ml'
           ## Customize our commit messages.
-          commit_message: Updating the static website files for English handbook [Built from development branch's commit ${GITHUB_SHA}]
+          commit_message: Updating the static website files for English handbook [Built from development branch's commit $GITHUB_SHA]
