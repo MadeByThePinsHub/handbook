@@ -1,8 +1,13 @@
+## Install the rquired
 Pygments
 Markdown
 pymdown-extensions
+
+## Then, install the base package and theme
 mkdocs
 mkdocs-material
+
+## Now, the plugins...
 mkdocs-redirects
 mkdocs-material-extensions
 mkdocs-git-revision-date-localized-plugin
