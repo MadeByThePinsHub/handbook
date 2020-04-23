@@ -135,7 +135,7 @@ triage-ops:
     - manual
 
 pages:
-  image: alpine:latest
+  image: ubuntu:latest
   stage: deploy
   script:
     - mv site public
