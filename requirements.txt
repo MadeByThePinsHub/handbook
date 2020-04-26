@@ -1,6 +1,6 @@
 ## Install the rquired
 Pygments
-Markdown
+Markdown>=3.2.1
 pymdown-extensions
 
 ## Then, install the base package and theme

@@ -32,7 +32,7 @@ jobs:
           python3 -m pip install -r ./requirements.txt
 
       - name: Documentation site builds
-        run: mkdocs build
+        run: mkdocs build -f mkdocs_gh-pages.yml -v
 
       - name: Create a build snapshot by uploading artifact
         uses: actions/upload-artifact@v1.0.0
