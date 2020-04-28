@@ -32,13 +32,13 @@ jobs:
           python3 -m pip install -r ./requirements.txt
 
       - name: Documentation site builds
-        run: mkdocs build -f mkdocs_gh-pages.yml -v
+        run: mkdocs build -v -f mkdocs_gh-pages.yml
 
       - name: Create a build snapshot by uploading artifact
         uses: actions/upload-artifact@v1.0.0
         with:
           # Artifact name
-          name: Documentation Site Build Snapshots
+          name: Documentation Site Build Snapshots for ${GITHUB_SHA}
           # Directory containing files to upload
           path: site
           

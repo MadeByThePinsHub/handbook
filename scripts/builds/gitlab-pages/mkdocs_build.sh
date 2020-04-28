@@ -12,6 +12,7 @@ pause_between_steps() {
     sleep "$1"
 }
 
+## Get the builds type from env.
 BUILDS_TYPE=$BUILDS_TYPE
 
 ## WARNING: Using this command alone will export GitLab CI's deepest secrets!
@@ -48,7 +49,7 @@ elif [ $BUILDS_TYPE = "production" ]
 then
     mkdocs build -v -f mkdocs-prod.yml
 else
-    echo "[ERROR!] Undefined builds type! Exiting..."
+    echo "[ERROR!] Yeet, a undefined builds type was detected. Exiting..."
     exit 1
 fi
 pause_between_steps "1"
