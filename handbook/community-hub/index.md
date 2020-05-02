@@ -11,6 +11,10 @@ open-sourced, your contributions are welcome![^1]
 ## Table of Contents
 * [Frequent Asked Questions](faq)
     * [Censorship 101](faq/censorship-101)
-      * [Anime](faq/censorship-101/anime)
+        * [Anime](faq/censorship-101/anime)
     * [Yu-Gi-Oh](faq/yu-gi-oh)
-      * []
+        * [Where are the previous protagonists?](/faq/yu-gi-oh/)
+* [Community Network Federation](network-federation)
+    * [Federation Support](network-federation/support)
+    * [SpamWatch](network-federation/spamwat.ch)
+    * [Valid Federation Ban Reasons](network-federation/fedban-reasons)

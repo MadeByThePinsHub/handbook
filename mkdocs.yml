@@ -15,7 +15,8 @@ theme:
     repo: fontawesome/brands/gitlab
   language: en
   features:
-    - instant
+    # The instant feature is having issues when deployed on a Cloudflare-protected custom domain.
+    # - instant
     - tabs
 docs_dir: handbook
 
@@ -50,7 +51,7 @@ nav:
       - 'Triage Operations':
         - 'Index': 'the-gitlab-way/triage-ops/index.md'
       - 'GitLab Runners':
-        - 'Managing Artifacts': the-gitlab-way/artifacts-management/index.md
+        - 'Managing Artifacts': 'the-gitlab-way/artifacts-management/index.md'
     - 'Life at the Pins Team':
       - 'README': 'life-at-the-pins/index.md'
       - 'Censorship 101':
@@ -61,6 +62,10 @@ nav:
         - 'List of Team and Community Members': 'directory/team-members.md'
     - 'Community Hub':
       - 'Index': 'community-hub/index.md'
+      - 'Telegram Network Federation':
+        - 'Index': 'community-hub/index.md'
+        - 'FAQs': 'community-hub/faqs/index.md'
+        - 'Federation Ban Reasons': 'community-hub/fedban-reasons.md'
       - 'Minecraft Servers':
         - 'Official Servers': 'minecraft-servers/index.md#official-servers'
         - 'Community-managed Servers': 'minecraft-servers/index.md#community-managed-servers'
@@ -68,8 +73,8 @@ nav:
         - 'Limitations on Provider-side': 'minecraft-servers/index.md#limitations'
         - 'Server Rules': 'minecraft-servers/rules.md'
     - 'In other Languages':
-      - 'Fork to localize': "https://gitlab.com/MadeByThePinsTeam-DevLabs/Official-Handbook/-/forks/new"
       - 'Available Translations': 'select-language.md'
+      - 'Fork to localize': "https://gitlab.com/MadeByThePinsTeam-DevLabs/Official-Handbook/-/forks/new"
 
 # Markdown extensions and other plugins
 # For Markdown extensions for Python, see https://python-markdown.github.io/extensions/ for the full list.

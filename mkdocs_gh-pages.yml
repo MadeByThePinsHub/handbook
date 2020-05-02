@@ -14,7 +14,7 @@ theme:
     repo: fontawesome/brands/gitlab
   language: en
   features:
-    - instant
+    # - instant
     - tabs
 docs_dir: handbook
 
@@ -22,8 +22,7 @@ docs_dir: handbook
 lang: en
 
 # Repository information
-repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook
-repo_name: View source on GitLab
+repo_url: https://github.com/MadeByThePinsHub/official-team-handbook
 
 # Navigation menu
 # Update this as new content are available.
@@ -49,7 +48,7 @@ nav:
       - 'Triage Operations':
         - 'Index': 'the-gitlab-way/triage-ops/index.md'
       - 'GitLab Runners':
-        - 'Managing Artifacts': the-gitlab-way/artifacts-management/index.md
+        - 'Managing Artifacts': 'the-gitlab-way/artifacts-management/index.md'
     - 'Life at the Pins Team':
       - 'README': 'life-at-the-pins/index.md'
       - 'Censorship 101':
@@ -60,6 +59,10 @@ nav:
         - 'List of Team and Community Members': 'directory/team-members.md'
     - 'Community Hub':
       - 'Index': 'community-hub/index.md'
+      - 'Telegram Network Federation':
+        - 'Index': 'community-hub/index.md'
+        - 'FAQs': 'community-hub/faqs/index.md'
+        - 'Federation Ban Reasons': 'community-hub/fedban-reasons.md'
       - 'Minecraft Servers':
         - 'Official Servers': 'minecraft-servers/index.md#official-servers'
         - 'Community-managed Servers': 'minecraft-servers/index.md#community-managed-servers'
