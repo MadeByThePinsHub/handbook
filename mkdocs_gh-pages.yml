@@ -59,10 +59,11 @@ nav:
         - 'List of Team and Community Members': 'directory/team-members.md'
     - 'Community Hub':
       - 'Index': 'community-hub/index.md'
-      - 'Telegram Network Federation':
-        - 'Index': 'community-hub/index.md'
-        - 'FAQs': 'community-hub/faqs/index.md'
-        - 'Federation Ban Reasons': 'community-hub/fedban-reasons.md'
+      - 'Telegram Community Network Federation':
+        - 'Index': 'community-hub/network-federation/index.md'
+        - 'FAQs': 'community-hub/faqs/network-federation.md'
+        - 'Federation Ban Reasons': 'community-hub/network-federation/fedban-reasons.md'
+        - 'Contacting Support': 'community-hub/network-federation/support.md'
       - 'Minecraft Servers':
         - 'Official Servers': 'minecraft-servers/index.md#official-servers'
         - 'Community-managed Servers': 'minecraft-servers/index.md#community-managed-servers'
