@@ -18,7 +18,7 @@ theme:
     # The instant feature is having issues when deployed on a Cloudflare-protected custom domain.
     # - instant
     - tabs
-docs_dir: handbook
+docs_dir: handbook-src
 
 # For translations to the handbook, refer to https://www.mkdocs.org/user-guide/configuration/#lang and https://squidfunk.github.io/mkdocs-material/getting-started/#localization. Must be same as theme language config above.
 lang: en
