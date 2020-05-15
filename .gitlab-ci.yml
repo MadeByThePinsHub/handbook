@@ -60,7 +60,7 @@ develop:mkdocs_build:
     - bash ./scripts/builds/gitlab-pages/mkdocs_build.sh
   artifacts:
     paths:
-      - site
+      - public
     expire_in: 7 days
     when: on_success
   only:
@@ -77,7 +77,7 @@ staging:mkdocs_build:
     - bash ./scripts/builds/gitlab-pages/mkdocs_build.sh
   artifacts:
     paths:
-      - site
+      - public
     expire_in: 7 days
     when: on_success
   only:
@@ -96,7 +96,7 @@ mkdocs_build:
     - bash ./scripts/builds/gitlab-pages/mkdocs_build.sh
   artifacts:
     paths:
-      - site
+      - public
     expire_in: 7 days
     when: on_success
   only:
@@ -138,7 +138,8 @@ pages:
   image: ubuntu:latest
   stage: deploy
   script:
-    - mv site public
+    - echo "Doing stuff..."
+    - echo "I do nothing because"
   artifacts:
     paths:
       - public

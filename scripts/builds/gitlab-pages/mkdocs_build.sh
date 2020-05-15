@@ -47,12 +47,18 @@ then
     mkdocs build -v -f mkdocs-staging.yml
 elif [ $BUILDS_TYPE = "production" ]
 then
-    mkdocs build -v -f mkdocs-prod.yml
+    echo "File not found, exiting..."
+    exit 1
 else
     echo "[ERROR!] Yeet, a undefined builds type was detected. Exiting..."
     exit 1
 fi
 pause_between_steps "1"
+
+print_status "[INFO] Confirming builds..."
+ls -al
+ls -al ./site
+ls -al ./public
 
 print_status "Success!"
 echo "[INFO] If something wrong with the script, please contact Support or feel free to edit this script."
