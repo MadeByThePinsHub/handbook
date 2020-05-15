@@ -3,5 +3,6 @@
 
 {
     "editor.autoSave": "on",
-    "editor.autoSaveDelay": 5000 // save every 5 seconds
+    "editor.autoSaveDelay": 30000, // save unsaved stuff automatically every 30 seconds.
+    "git.alwaysSignOff": true // Signing off is important to avoid lies in commits + copyright issues.
 }
