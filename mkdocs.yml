@@ -126,8 +126,7 @@ plugins:
         separator: '[\s\-\.]+'
         lang:
           - en
-    - git-revision-date-localized:
-        type: iso_datetime
+    - git-revision-date-localized
     - redirects:
         redirect_maps:
           'remix': "https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/-/forks/new"
