@@ -16,13 +16,14 @@ theme:
   features:
     # - instant
     - tabs
-docs_dir: handbook
+docs_dir: handbook-src
 
 # For translations to the handbook, refer to https://www.mkdocs.org/user-guide/configuration/#lang and https://squidfunk.github.io/mkdocs-material/getting-started/#localization. Must be same as theme language config above.
 lang: en
 
 # Repository information
 repo_url: https://github.com/MadeByThePinsHub/official-team-handbook
+repo_name: MadeByThePinsHub/official-team-handbook
 
 # Navigation menu
 # Update this as new content are available.
@@ -155,4 +156,4 @@ remote_name: origin
 remote_branch: gh-pages
 
 ## Edit link for the 'develop' branch. Use available files for different stuff.
-edit_uri: blob/develop/handbook
+edit_uri: edit/develop/handbook-src

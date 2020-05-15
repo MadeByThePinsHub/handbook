@@ -25,7 +25,7 @@ lang: en
 
 # Repository information
 repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook
-repo_name: View source on GitLab
+repo_name: MadeByThePinsTeam-DevLabs/official-handbook
 
 # Navigation menu
 # Update this as new content are available.
@@ -154,4 +154,4 @@ extra:
       link: 'https://telegram.dog/UpdatesFromThePins'
 
 ## Edit link for the 'develop' branch. Use available files for different stuff.
-edit_uri: blob/develop/handbook
+edit_uri: edit/develop/handbook-src
