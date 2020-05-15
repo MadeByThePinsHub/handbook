@@ -46,7 +46,7 @@ nav:
           - 'PGP Keys and Keybase': 'devops/secure/pgp-keys/keybase.md'
           - 'Team Members Using Keybase': 'directory/keybase-users.md'
     - 'GitLab':
-      - 'GitLab What?': 'the-gitlab-way/index.md#gitlab-what'
+      - 'GitLab What?': 'the-gitlab-way/index.md/#gitlab-what'
       - 'Migrating from GitHub': 'the-gitlab-way/movingtogitlab/github.md'
       - 'Triage Operations':
         - 'Index': 'the-gitlab-way/triage-ops/index.md'
@@ -67,6 +67,7 @@ nav:
         - 'FAQs': 'community-hub/faqs/network-federation.md'
         - 'Federation Ban Reasons': 'community-hub/network-federation/fedban-reasons.md'
         - 'Contacting Support': 'community-hub/network-federation/support.md'
+      - 'Collection of Community-Asked Questions': 'community-hub/faq/index.md'
       - 'Minecraft Servers':
         - 'Official Servers': 'minecraft-servers/index.md#official-servers'
         - 'Community-managed Servers': 'minecraft-servers/index.md#community-managed-servers'
@@ -80,6 +81,7 @@ nav:
 # Markdown extensions and other plugins
 # For Markdown extensions for Python, see https://python-markdown.github.io/extensions/ for the full list.
 markdown_extensions:
+  - pyembed.markdown
   - markdown.extensions.admonition
   - markdown.extensions.attr_list
   - markdown.extensions.codehilite:
