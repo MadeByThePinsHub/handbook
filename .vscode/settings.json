@@ -1,0 +1,8 @@
+// Editor settings for Theia/Gitpod
+// Editing this file should follows Microsoft's VS Code reference for this file
+
+{
+    "editor.autoSave": "on",
+    "editor.autoSaveDelay": 30000, // save unsaved stuff automatically every 30 seconds.
+    "git.alwaysSignOff": true // Signing off is important to avoid lies in commits + copyright issues.
+}
