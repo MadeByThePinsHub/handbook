@@ -16,6 +16,7 @@ Please consult the list below before you initiate a federation ban. Otherwise, s
 | `Reported in SpamWatch Support` | Someone got reported in the SpamWatch Support. Appeal in the [Federation Support](../support.md) | Yes, unless you're now banned in [SpamWatch](https://t.me/SpamWatch). |
 | `Flagged by SpamWatchers` | Likely flagged by federations other than SpamWatch. Mostly found in cryptoscammers. | No, you need to stop spamming everywhere in Telegram. We only lift your fedban if other federations unfedban you. |
 | `Reported in SpamWatch Support Chat` | Old reason for people who get reported in SpamWatch Support, now obsolete. Use `Reported in SpamWatch Support` instead. | Yes, unless you're now banned in [SpamWatch](https://t.me/SpamWatch). |
+| `Spam` | 
 
 ### Rare Reasons
 If your federation ban reason listed below, please contact our federation maintainers in the [Support Chat](../support.md/#contact-support). In some rare cases, we'll not allow you to given an parole unless otherwise decided by our side.

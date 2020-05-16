@@ -12,7 +12,7 @@ htmlmin
 idna
 Jinja2
 joblib
-jsminn
+jsmin
 livereload
 lunr
 Markdown

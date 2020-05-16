@@ -58,7 +58,10 @@ pause_between_steps "1"
 print_status "[INFO] Confirming builds..."
 ls -al
 ls -al ./site
+
+print_status "[INFO] Copying stuff..."
+cp -R ./site ./public
 ls -al ./public
 
-print_status "Success!"
+print_status "[SUCCESS] Build success."
 echo "[INFO] If something wrong with the script, please contact Support or feel free to edit this script."

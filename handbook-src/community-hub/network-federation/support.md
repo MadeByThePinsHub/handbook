@@ -13,5 +13,5 @@ To contact support, we made a table for you to lessen our time explaining stuff.
 ## The Federation Staffs
 | Name | Telegram Username | PMs Friendly? |
 | The Pins Team (generic) | `@ThePinsTeam` | Depends on who's using it, mostly Andrei Jiroh. |
-| The Pins Team Support (generic) | `@ThePinsTeamSupport` | No |
+| The Pins Team Support (generic) | `@ThePinsTeamSupport` | Depends on who's using it, mostly Andrei Jiroh. |
 | Andrei Jiroh | `@AJHalili2006` / `@MidoriyaLeftTheGroup` | No |

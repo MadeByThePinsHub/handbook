@@ -20,9 +20,6 @@ theme:
     - tabs
 docs_dir: handbook-src
 
-# For translations to the handbook, refer to https://www.mkdocs.org/user-guide/configuration/#lang and https://squidfunk.github.io/mkdocs-material/getting-started/#localization. Must be same as theme language config above.
-lang: en
-
 # Repository information
 repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook
 repo_name: MadeByThePinsTeam-DevLabs/official-handbook
@@ -135,12 +132,8 @@ plugins:
           'remix-on-crowin': 'https://crowdin.com'
           # redirect old links to new, working ones
           # avoid multiple redirects as it hurts performance!
-          'codenames': 'directory/codenames'
-          'team-members': 'directory/team-members'
-          'your-first-years/onboarding': 'life-at-the-pins/your-first-weeks/onboarding'
-          'your-last-years/offboarding': 'life-at-the-pins.your-last-weeks/offboarding'
-          'devops/verify/virtual-environments': 'devops/verify/virtual-env'
-          'devops/verify/virtual-environments/vms': 'devops/verify/virtual-env/virtual-machines'
+          'codenames.md': 'directory/codenames.md'
+          'team-members.md': 'directory/team-members.md'
 
 # Some extras
 extra:

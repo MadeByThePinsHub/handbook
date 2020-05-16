@@ -78,6 +78,7 @@ nav:
 # Markdown extensions and other plugins
 # For Markdown extensions for Python, see https://python-markdown.github.io/extensions/ for the full list.
 markdown_extensions:
+  - pyembed.markdown
   - markdown.extensions.admonition
   - markdown.extensions.attr_list
   - markdown.extensions.codehilite:
