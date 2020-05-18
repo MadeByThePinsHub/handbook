@@ -9,6 +9,7 @@ open-sourced, your contributions are welcome![^1]
 [^1]: See [this article](../about/CONTRIBUTING) to learn more how to join the contributors squad.
 
 ## Table of Contents
+We'll update
 * [Frequent Asked Questions](faq)
     * [Censorship 101](faq/censorship-101/index.md)
         * [Anime](faq/censorship-101/anime.md)
