@@ -2,7 +2,7 @@
 
 # Basic site config
 site_name: The Pins Team English Handbook
-site_url: https://gh-pages-en.handbooksbythepins.gq
+site_url: https://en.handbooksbythepins.gq
 use_directory_urls: true
 theme:
   name: 'material'
@@ -14,16 +14,14 @@ theme:
     repo: fontawesome/brands/gitlab
   language: en
   features:
+    # The instant feature is having issues when deployed on a Cloudflare-protected custom domain.
     # - instant
     - tabs
 docs_dir: handbook-src
 
-# For translations to the handbook, refer to https://www.mkdocs.org/user-guide/configuration/#lang and https://squidfunk.github.io/mkdocs-material/getting-started/#localization. Must be same as theme language config above.
-lang: en
-
 # Repository information
-repo_url: https://github.com/MadeByThePinsHub/official-team-handbook
-repo_name: MadeByThePinsHub/official-team-handbook
+repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook
+repo_name: MadeByThePinsTeam-DevLabs/official-handbook
 
 # Navigation menu
 # Update this as new content are available.
@@ -44,7 +42,7 @@ nav:
           - 'PGP Keys and Keybase': 'devops/secure/pgp-keys/keybase.md'
           - 'Team Members Using Keybase': 'directory/keybase-users.md'
     - 'GitLab':
-      - 'GitLab What?': 'the-gitlab-way/index.md#gitlab-what'
+      - 'GitLab What?': 'the-gitlab-way/index.md/#gitlab-what'
       - 'Migrating from GitHub': 'the-gitlab-way/movingtogitlab/github.md'
       - 'Triage Operations':
         - 'Index': 'the-gitlab-way/triage-ops/index.md'
@@ -65,6 +63,7 @@ nav:
         - 'FAQs': 'community-hub/faqs/network-federation.md'
         - 'Federation Ban Reasons': 'community-hub/network-federation/fedban-reasons.md'
         - 'Contacting Support': 'community-hub/network-federation/support.md'
+      - 'Collection of Community-Asked Questions': 'community-hub/faq/index.md'
       - 'Minecraft Servers':
         - 'Official Servers': 'minecraft-servers/index.md#official-servers'
         - 'Community-managed Servers': 'minecraft-servers/index.md#community-managed-servers'
@@ -72,8 +71,8 @@ nav:
         - 'Limitations on Provider-side': 'minecraft-servers/index.md#limitations'
         - 'Server Rules': 'minecraft-servers/rules.md'
     - 'In other Languages':
-      - 'Fork to localize': "https://gitlab.com/MadeByThePinsTeam-DevLabs/Official-Handbook/-/forks/new"
       - 'Available Translations': 'select-language.md'
+      - 'Fork to localize': "https://gitlab.com/MadeByThePinsTeam-DevLabs/Official-Handbook/-/forks/new"
 
 # Markdown extensions and other plugins
 # For Markdown extensions for Python, see https://python-markdown.github.io/extensions/ for the full list.
@@ -125,20 +124,15 @@ plugins:
         separator: '[\s\-\.]+'
         lang:
           - en
-    - git-revision-date-localized:
-        type: iso_datetime
+    - git-revision-date-localized
     - redirects:
         redirect_maps:
           'remix': "https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/-/forks/new"
           'remix-on-crowin': 'https://crowdin.com'
           # redirect old links to new, working ones
           # avoid multiple redirects as it hurts performance!
-          'codenames': 'directory/codenames'
-          'team-members': 'directory/team-members'
-          'your-first-years/onboarding': 'life-at-the-pins/your-first-weeks/onboarding'
-          'your-last-years/offboarding': 'life-at-the-pins.your-last-weeks/offboarding'
-          'devops/verify/virtual-environments': 'devops/verify/virtual-env'
-          'devops/verify/virtual-environments/vms': 'devops/verify/virtual-env/virtual-machines'
+          'codenames.md': 'directory/codenames.md'
+          'team-members.md': 'directory/team-members.md'
 
 # Some extras
 extra:
@@ -151,10 +145,6 @@ extra:
       link: 'https://gitlab.com/MadeByThePinsTeam-DevLabs'
     - icon: fontawesome/brands/telegram
       link: 'https://telegram.dog/UpdatesFromThePins'
-
-## If you had a Github fork, keep it 'gh-pages'.
-remote_name: origin
-remote_branch: gh-pages
 
 ## Edit link for the 'develop' branch. Use available files for different stuff.
 edit_uri: edit/develop/handbook-src
