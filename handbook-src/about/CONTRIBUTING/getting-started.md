@@ -6,6 +6,7 @@ If you want to get started contributing to our handbook but don't know how becau
 just guessing how you contribute to the project, then read this document first before you start.
 
 ## Setting up your dev environment
+
 To get started, you need Python 3.x and Git installed on your machine. To start coding locally, it all
 starts wit a `git clone` command.
 
@@ -24,13 +25,16 @@ After you finished the initital setup, enjoy hacking! Please make sure you had c
 can send a MR later.
 
 ### With Gitpod[^1]
+
 If you like to code on Gitpod, [click here!](https://gitpod.io/#https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook)
 
 If you're used Gitpod for the first time, log in. After logging in, wait for the dev environment initization to finish.
 After the image builds to finished, let allow Gitpod install the dependencies and launch the development server.
 
 ## Development mode
+
 In a console session, start the Mkdocs server with:
+
 ```bash
 ## For beginners, launch the server.
 mkdocs serve --dev-addr localhost:8080 --livereload
@@ -42,8 +46,11 @@ mkdocs serve --dev-addr localhost:8080 -v --livereload
 Volia! Open `localhost:8080` in your browser, read what's built and edit the source files.
 
 **With the VS Code or Theia**: Open the **Terminal** -> **Run Task...**
+
 ## Build process
+
 When you are statsified, start the build process with:
+
 ```bash
 ## make it verbose
 mkdocs build -v

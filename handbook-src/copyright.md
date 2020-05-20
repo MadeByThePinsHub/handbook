@@ -3,6 +3,7 @@
 ## Project Licenses
 
 **Project Source** - The project source and its contributions from different people are licensed under Mozilla Public License Versin 2.0 or later. The legal code of this license are also available at `LICENSE` in the root folder.
+
 ```txt
 Mozilla Public License Version 2.0
 ==================================
@@ -380,19 +381,21 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
 
 ```
 
-**Handbook Website and Contributions** - The handbook website itself and contributions from different people are licensed under **Creative Commons Attribution-ShareAlike 4.0 International**. The legal code for this CC license is found at https://creativecommons.org/licenses/by-sa/4.0/legalcode.
+**Handbook Website and Contributions** - The handbook website itself and contributions from different people are licensed under **Creative Commons Attribution-ShareAlike 4.0 International**. The legal code for this CC license is found at <https://creativecommons.org/licenses/by-sa/4.0/legalcode.>
 
 ## Software Licenses for Third-Party Dependencies
+
 This section contains software license information for third-party software used in building this website where our official handbook lives.
 
 **Material for Mkdocs**
+
 ```txt
 MIT License
 
 Copyright © 2016 - 2019 Martin Donath
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of 
-this software and associated documentation files (the "Software"), to deal in the Software 
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in the Software
 without restriction, including without limitation the rights to use, copy, modify, merge,
 publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons
 to whom the Software is furnished to do so, subject to the following conditions:
@@ -409,6 +412,7 @@ OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
 **Mkdocs**
+
 ```txt
   
 Copyright © 2014, Tom Christie. All rights reserved.
