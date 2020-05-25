@@ -6,9 +6,11 @@ Welcome to the Pins team's fully open-sourced English team handbook! This is whe
 ## Usage and Deployment
 
 ### GitLab CI
+
 The GitLab CI configuration is ready to use if you duplicate or fork this project to your side. No extra step required and feel free to customize it on your needs. Just edit and wait for first successful deplyoment.
 
 ### Local Deployment
+
 You can clone this GitLab into your machine to contribute to the project
 
 * Clone the project to your machine locally using `git clone` in your command line.
@@ -46,12 +48,15 @@ find handbook -type f | xargs wc -w # Wait for the answer, then calucate!
 * When everything is clear, use `mkdocs build` to generate documentation website files.
 
 ### With Gitpod
+
 Once you open this repository in Gitpod and finished the init process, the dev server will be started on port `8080`.
 
 [![Open in Gitpod](https://www.gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://gitlab.com/MadeByThePinsTeam-DevLabs/handbook)
 
 See `handbook/about/CONTRIBUTING/using-gitpod.md` for details on how you can use Gitpod in contributing to the project.
+
 ## CI Status
+
 CI build statuses are from the original GitLab mirror. If you forked the handbook, please edit the links!
 
 | Environment | Branch | CI Status |
@@ -68,6 +73,7 @@ The project source code is licensed under Mozilla Public License Version 2.0 whi
 Media content, like photos and videos are not covered by the licenses stated above unless otherwise specified.
 
 ## CONTRIBUTING and Handbook Feedback
+
 For contributions, see the `CONTRIBUTING.md` file in root directory of this repository or at the [live preview website].
 
 We are also seeking for community feedback in improving the handbook, so feel free to remix and edit.

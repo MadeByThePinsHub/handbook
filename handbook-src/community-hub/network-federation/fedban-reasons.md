@@ -26,6 +26,7 @@ Please consult the list below before you initiate a federation ban. Otherwise, s
 | `NSFW Stuff` | Sharing NSFW content in Telegram isn't allowed, as per their ToS. | Yes, but only if you stop. If not, we'll reserve the right to report it to `abuse@telegram.org`.
 
 ### Rare Reasons
+
 If your federation ban reason listed below, please contact our federation maintainers in the [Support Chat](../support.md/#contact-support). In some rare cases, we'll not allow you to given an parole unless otherwise decided by our side.
 
 | Reason | What Does That Means? | Appealable? |
@@ -36,6 +37,7 @@ If your federation ban reason listed below, please contact our federation mainta
 | `GPL Violation Flag on Marie forks` | We heard that somebody was just kanged the Marie forks' code, so we just remove them off our chats. | Yes, just make sure you make your fork open-source and credit the right people. |
 
 ## FedBan Reason Tags
+
 Reason tags are in form of `[TAG HERE] REASON HERE / OTHER STUFF HERE`. If using more than one tags, it should look like `[FIRST TAG HERE / SECOND TAG HERE]
 REASONS HERE`.
 

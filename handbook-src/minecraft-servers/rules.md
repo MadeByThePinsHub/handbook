@@ -1,4 +1,5 @@
 # Minecraft Server Rules
+
 The following rules are for the Minecraft servers managed by the Pins team. Community-managed servers' rules may vary.
 
 ## General Rules
@@ -27,6 +28,7 @@ The following rules are for the Minecraft servers managed by the Pins team. Comm
     2. Do not submit ban appeals for temporary IP bans.
 
 ## Repeatition of Violations
+
 If any player violate any of the rules in repeative manner, it should extend the penalities imposed above.
 
 | Rule Category | Rule Sub-Category | First Offense | Second Offense | Third Offense |

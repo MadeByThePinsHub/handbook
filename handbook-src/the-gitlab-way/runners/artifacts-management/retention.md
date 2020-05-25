@@ -4,7 +4,8 @@ title: Artifacts Retention Policies
 
 To help GitLab manage artifacts storage while optmizing for other usages of othe projects (in case of GitLab.com) or even on our on-perm GL installations, we need to set artifacts to expire after a specific peroid.
 
-## Why we have an artifacts retention policy?
+## Why we have an artifacts retention policy
+
 We hate beating the red lights on storage limits
 
 ## Defining how many days an artifact to retain

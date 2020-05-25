@@ -2,14 +2,15 @@
 title: Team Members' Codenames
 ---
 
-Oh, you are redirected here because someone from the team just contacted you or simply want to 
+Oh, you are redirected here because someone from the team just contacted you or simply want to
 
 ## Codename Policy
+
 **Do's**
 
 * Re-use past codenames, but requires discussion with the old codename holder
 * Always reveal your real identity unless hidden for privacy reasons.
-    * If hidden, add an link to this page to learn more who owns that nickname.
+  * If hidden, add an link to this page to learn more who owns that nickname.
 
 **Don'ts**
 
@@ -17,6 +18,7 @@ Oh, you are redirected here because someone from the team just contacted you or 
 * Don't reuse an codename that currently used by another team member.
 
 ## List of Team Codenames
+
 Any team codename updates should use the **fork-commit-merge request workflow** instead of creating another patch branch unless otherwise specified or you're currently doing housekeeping on your personal account.
 
 ### Current Codenames
