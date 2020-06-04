@@ -21,7 +21,12 @@
             "type": "shell",
             "command": "mkdocs",
             "args": ["serve", "-a http://localhost:3000", "-v"],
-            "group": {"kind": "test", "isDefault": true}
+            "group": "test"
+        },
+        {
+            "label": "Lint Markdown files",
+            "type": "shell",
+            "command": "./lint-md.sh"
         }
 	]
 }
