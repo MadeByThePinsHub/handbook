@@ -1,0 +1,26 @@
+{
+  "name": "thepinsteam-handbook-tools",
+  "version": "0.1.0",
+  "description": "Node.js tools for the Pins team's English Handbook.",
+  "main": "-",
+  "dependencies": {
+    "markdownlint": "^0.20.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "check-status": "./lint-status.sh",
+    "lint": "./lint-md.sh",
+    "test": "echo I do nothing KEK && exit 1",
+    "start": "echo I do nothing KEK && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook.git"
+  },
+  "author": "The Pins Team <yourfriends@madebythepins.tk>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/issues"
+  },
+  "homepage": "https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook#readme"
+}
