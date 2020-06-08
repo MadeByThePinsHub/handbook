@@ -2,7 +2,7 @@
 title: About the Handbook
 ---
 
-## History of the handbook
+## How this possible?
 
 The handbook started when Andrei Jiroh (@AndreiJirohHaliliDev2006) visits [the GitLab Handbook](https://about.gitlab.com/handbook) and he was impressedby how *large* the GitLab Handbook is it.
 
@@ -40,13 +40,14 @@ We are using [WordCounter](https://wordcounter.net/words-per-page) with the defa
 
 ### Computing the Handbook Pages
 
-* While the CI is running, the `words_counter` job
+* While the CI is running, the `words_counter` job will handle the work. You can also do this manually by doing `find handbook-src -type f | xargs wc -w` at
+the root directory of this repository on your machine.
 * Look for the total words count in the CI logs, then launch [WordCounter](https://wordcounter.net/words-per-page) and paste the count you copied from the console.
 * Submit and you'll see the results!
 
 ## See Also
 
-* On our repository where the handbook source code lives on GitLab.com, see [what changes happened in the `staging` branch](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook-en/commits/staging) in real-time as you read this.
+* On our repository where the handbook source code lives on GitLab.com, see [what changes happened in the `develop` branch](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook-en/commits/develop) in real-time as you read this.
 * How about reading [this page from GitLab Handbook](https://about.gitlab.com/handbook/about/) where we adopted most of them?
 
 [^1]: As we update the things, we configured GitLab CI to count how many words our handbook have in real-time before Mkdocs kicks off the builder.

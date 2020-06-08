@@ -1,6 +1,6 @@
 ---
 title: Getting Federation Support
-description: Please read 
+description: Please read this before continuing...
 ---
 
 ## Contact Support
@@ -20,6 +20,7 @@ To contact support, we made a table for you to lessen our time explaining stuff.
 | The Pins Team (generic) | `@ThePinsTeam` | Depends on who's using it, mostly Andrei Jiroh. | null |
 | The Pins Team Support (generic) | `@ThePinsTeamSupport` | Depends on who's using it, mostly Andrei Jiroh. | null |
 | Andrei Jiroh | `@AJHalili2006` / `@MidoriyaLeftTheGroup` | No | yes |
+| 
 
 ## Rules
 
@@ -29,4 +30,4 @@ Federation Support, because it was managed by the Pins team.
 make your ban unappealable.
 - **No deleting / editing out your messages.** Context in discussions is important.
 - **Swearing is also not allowed.** Our moderation bot will warn about that automatically.
-- [**Check your ban reason before appealing.**](../)
+- [**Check your ban reason before appealing.**](../fedban-reasons.md)
