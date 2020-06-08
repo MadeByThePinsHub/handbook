@@ -1,6 +1,6 @@
+# Official English Team Handbook
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook) [![GitLab Merge Requests Welcome Badge](https://img.shields.io/badge/PRs-welcome!-brightgreen?logo=gitlab)](https://en.handbooksbythepins.gq/about/CONTRIBUTING)
 
-# Official English Team Handbook
 Welcome to the Pins team's fully open-sourced English team handbook! This is where the source files for the English Handbook website (`en.handbooksbythepins.gq`) hosted and generate with Mkdocs which are handled by the GitLab CI.
 
 ## Usage and Deployment
@@ -61,6 +61,8 @@ CI build statuses are from the original GitLab mirror. If you forked the handboo
 | Development | `develop` | [![](https://img.shields.io/gitlab/pipeline/MadeByThePinsTeam-DevLabs/official-handbook/develop?style=flat-square&logo=gitlab)](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/tree/develop) |
 
 ## License
+[![Mozilla Public License](https://img.shields.io/badge/license-MPL-orange.svg?style=flat-square)](https://www.mozilla.org/MPL/) [![Creative Commons](https://img.shields.io/badge/license-CC--BY--SA%204.0-orange.svg?style=flat-square)](http://creativecommons.org/licenses/by-sa/4.0/)
+
 The project source code is licensed under Mozilla Public License Version 2.0 while the website is licensed under Creative Commons Attribution-ShareAlike 4.0 Internatinal License. Feel free to remix this repository and use them on your own team.
 
 Media content, like photos and videos are not covered by the licenses stated above unless otherwise specified.
