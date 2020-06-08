@@ -1,8 +1,9 @@
-## This file is for the the GitHub Pages preview. Please proceed with caution on editing!
+## To configure your Mkdocs installation using this file,
+## refer to Mkdocs documentation
 
 # Basic site config
 site_name: The Pins Team English Handbook
-site_url: https://en.handbooksbythepins.gq
+site_url: https://gh-pages-en.handbooksbythepins.gq
 use_directory_urls: true
 theme:
   name: 'material'
@@ -20,8 +21,8 @@ theme:
 docs_dir: handbook-src
 
 # Repository information
-repo_url: https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook
-repo_name: MadeByThePinsTeam-DevLabs/official-handbook
+repo_url: https://github.com/MadeByThePinsHub/official-team-handbook
+repo_name: MadeByThePinsHub/official-team-handbook
 
 # Navigation menu
 # Update this as new content are available.
@@ -102,9 +103,9 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      provider: GitLab
-      user: MadeByThePinsTeam-DevLabs
-      repo: official-handbook
+      provider: GitHub
+      user: MadeByThePinsHub
+      repo: official-team-handbook
       labels: {
         'pull': 'Merge Request'
       }
