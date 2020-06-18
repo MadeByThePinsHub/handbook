@@ -2,7 +2,8 @@
 title: Valid FedBan Reasons
 description: Curious about our federation ban reasons? We have them.
 ---
-Team members with federation administration permissions in [Rose](https://t.me/MissRose_bot) and/or [Haruka Aya](https://t.me/HarukaAyaBot) can do a federation ban across our Community Network. This also applies to our bans on [Watchdog Chat Guard](https://t.me/WatchdogChatGuard_bot).
+
+Team members with federation administration permissions in [Rose](https://t.me/MissRose_bot), [Sophie](https://t.me/rSophieBot) and [Haruka Aya](https://t.me/HarukaAyaBot) can do a federation ban across our Community Network. This also applies to our bans on [Watchdog Chat Guard](https://t.me/WatchdogChatGuard_bot).
 
 !!! info "Not a fed admin?"
     If you are here because you got fedbanned, thanks for your interest to visiting here. We usually make our fedban
@@ -16,10 +17,11 @@ Please consult the list below before you initiate a federation ban. Otherwise, s
 
 | Reason | What Does That Means? | Appealable?|
 | ----- | ----- | ----- |
-| `Reported in <insert stuff here>` | Someone got reported in the SpamWatch Support. Appeal in the [Federation Support](./support.md) | Yes, unless you're now banned in [SpamWatch](https://t.me/SpamWatch). |
+| `Reported in <fed name> Support` | Someone got reported elsewhereand we pulled our guns. Appeal in the [Federation Support](./support.md) | Yes, unless you're now banned elsewhere. |
 | `Flagged by SpamWatchers` | Likely flagged by federations other than SpamWatch. Mostly found in cryptoscammers. | No, you need to stop spamming everywhere in Telegram. We only lift your fedban if other federations unfedban you. |
 | `Reported in SpamWatch Support Chat` | Old reason for people who get reported in SpamWatch Support, now obsolete. Use `Reported in <federation name> Support` instead. | Yes, unless you're now banned in [SpamWatch](https://t.me/SpamWatch). |
-| `Spam` or `Spammer detected` | Likely this person is spmming around the chats. | Yes, but only if you stop.
+| `<category here> Spam` or `Spammer detected` | Likely this person is spmming around the chats. | Yes, but only if you stop. It might depends on your case. |
+| `spam[gban]` | Simplified ban reason that [Simon Hitler](https://t.me/SitiSchu) used. | Depends on how you spammed.
 | `Self-promoter detected in <chat name>` | Self-promoting in Telegram is considered as spam. | Yes, but only if you stop.
 | `NSFW Stuff` | Sharing NSFW content in Telegram isn't allowed, as per their ToS. | Yes, but only if you stop. If not, we'll reserve the right to report it to `abuse@telegram.org`.
 
@@ -46,13 +48,18 @@ REASONS HERE`.
 
 ### Can I appeal my ban?
 
-Your gban reasons may affect on how you can appeal to an gban given by an FedAdmin. Please review the reasons above before coming
-to our Federation Support and ask for some help.
+Your gban reasons may affect on how you can appeal to an gban given by an FedAdmin. Please review the reasons above before coming to our Federation Support and ask for some help. We can only
 
 ### I think I'm wrongly gbanned. I need help.
 
-If you think we wrongly gbanned you, please reach out to our Federation Support and ask for an appeal. Once lifted,
-please give us some information on who's did that you didn't in [the request dumping chat](https://t.me/FedbanRequestDumpingHub).
+If you think we wrongly gbanned you, please reach out to our Federation Support and ask for an appeal. Once lifted, we'll montior your activity for 2 weeks and we'll discuss what's next.
 
-### I can't joinned Support due to being banned in DEAI/SpamWatch/SpamBlockers. Help!
+### I can't joinned the Support chat due to being banned in DEAI/SpamWatch/SpamBlockers/Sibyl System or being flagged as spammer by Spam Protection Bot. Help!
 
+To get ungbanned elsewhere, please contact these admins or use their support options for appeals.
+
+### I want to be a FedAdmin. How?
+
+We screen everyone who want to join the Federation Admins Squad. If you're good fit, we'll invite you to enter our **Interview Chat**, where we can interview you and do some verification steps there. In rare cases, we can promote somebody who have effort to report and ban spammers.
+
+By default, FedAdmins are considered team staff at the Pins team as **Community Hub Network Moderators and Maintainers**.
