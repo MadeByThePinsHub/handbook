@@ -43,6 +43,8 @@ REASONS HERE`.
 | ----- | ----- | ----- |
 | `[FLAGGED IN <FEDERATION NAME>]` | We found that you had been flagged in a federation. (e.g. Xiaomeme or Rose Support Fed). | Depending on your ban reason from tht fed. |
 | `[FREE GBAN REQUESTED, DO NOT UNGBAN]` | You requested a free gban somewhere, so we gave you one. | See the Free Global Bans ToS for details. |
+| `[SPECIAL REASON, ONLY THE FEDBANNER CAN LIFT THIS BAN]` | An special reason was raised. Only the gbanner and [Support staff](https://t.me/ThePinsTeamSupport) can lift the ban. | it might depends on your special reason.
+| `[BLACKLISTED IN SPAM PROTECTION]` | If you're curious why, check the [public logs](https://t.me/SpamProtectionLogs). | If you think you're wrongfully blacklisted, [appeal in Intellivoid Dsicussions](https://t.me/IntellivoidDiscussions) then contact us afterwards.
 
 ## FAQs
 
