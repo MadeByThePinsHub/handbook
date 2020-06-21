@@ -3,11 +3,11 @@ title: Team Handbok Main Page
 summary: The main page of the Pins team's official Handbook.
 ---
 
-Welcome to the Pins team's official English Handbook! This is where the whole handbook lives and resides, mostly adopted from GitLab Handbook.
+Welcome to the Pins team's official English Handbook! This is where the whole handbook lives and resides, as we follow our footsteps on GitLab's handbook.
 
 !!! warning "Heads up, the handbook is still work-in-progress."
     You'll seeing this because most of the deployments are either from the `develop` branch or from
-    [an branch we're working](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/pipelines). For any feedback about this preview,
+    [an branch we're working](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/pipelines/develop). For any feedback about this preview,
     use our [issue tracker](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/issues) in GitLab.com.
 
 ## What's In the Book
@@ -29,14 +29,12 @@ FAQs about our handbook, the style guide, team and community directories, among 
 
 ### General
 
-* [Your First Years at The Pins Team](your-first-years)
-  * [Onboarding](your-first-years/onboarding)[^1]
-  * [Offboarding](your-first-years/offboarding)[^3]
 * [Life at the Pins team](life-at-the-pins)
   * [Censorship 101](life-at-the-pins/censorship-101)
     * [Handling Spoilers](handbook/life-at-the-pins/censorship-101/handling-spoilers)
-      * [Red Flagging Naughty Words](life-at-the-pins/censorship-101/red-flagging-naughty-words)
+  * [Red Flagging Naughty Words](life-at-the-pins/censorship-101/red-flagging-naughty-words)
     * [Off-topic Discussions](life-at-the-pins/off-topic-and-shitposting)
+    * [First Weeks at the team](life-at-the-pins/your-first-weeks) 
 
 ### DevOps Department
 
@@ -63,10 +61,11 @@ DevOps and GitLab is a good partner, but how about Glitch (or even GitPod)?
 How the Pins team uses GitLab and do Git-related stuff the GitLab way like triaging issues and merge requests.
 
 * [GitLab What?](the-gitlab-way#gitlab-what)
-  * [Triage Operations](the-gitlab-way/triage-ops)
+* [Triage Operations](the-gitlab-way/triage-ops)
   * [GitLab Runners](the-gitlab-way/runners)
     * [Artifacts Management](the-gitlab-way/runners/artifacts-management)
     * [Rentention Policies](the-gitlab-way/runners/artifacts-management/retention)
+* [Migrating from GitHub](the-gitlab-way/movingtogitlab/gh)
 
 ### Community
 
@@ -76,7 +75,7 @@ How the Pins team uses GitLab and do Git-related stuff the GitLab way like triag
     * [Discussion Boards](community-hub/fandoms/discussion-boards)
       * [Frequent Asked Questions](community-hub/fandoms/faqs)
     * [Discord](community-hub/discord/index.md)
-    * [Telegram](community-hub/telegram/index,nd)
+    * [Telegram](community-hub/telegram/index.md)
     * [Policies](community-hub/policies/index.md)
   * [Community-Asked Questions](community-hub/faq/index.md)
   * [Telegram Network Federation](community-hub/network-federation/index.md)
