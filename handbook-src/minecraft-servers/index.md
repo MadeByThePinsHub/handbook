@@ -39,4 +39,4 @@ There are some limitations that our provider did set. We apologixe for any issue
 [^1]: We only support latest stable version for security and performance improvements.
 [^2]: Read the docs:
 [^3]: Read the docs: <https://support.aternos.org/hc/en-us/articles/360026950912-Keep-your-world-safe>
-[^4]: Read the docs at <https://support.aternos.org/hc/en-us/articles/360026950812-Queue> and learn more also in threads at https://board.aternos.org/thread/42437-long-queueing-times-our-current-situation/
+[^4]: Read the docs at <https://support.aternos.org/hc/en-us/articles/360026950812-Queue> and learn more also in threads at <https://board.aternos.org/thread/42437-long-queueing-times-our-current-situation/>
