@@ -1,12 +1,10 @@
 ## Describe about your template
 
+This should be 1000 characters or less.
+
 ## Template diff
 
-<!--
-
 Please detail the difference between our template and your template.
-
--->
 
 ## TO-DO
 * [ ] Test if the MR author's template are validated and working.

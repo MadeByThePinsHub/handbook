@@ -9,7 +9,9 @@ Team members with federation administration permissions in [Rose](https://t.me/M
     If you are here because you got fedbanned, thanks for your interest to visiting here. We usually make our fedban
     reasons more transparent to everyone so they know if their ban reason is appealable or not.
 
-## Categories
+## Alllowed Reasons
+
+The list
 
 ### Common Reasons
 
@@ -17,13 +19,14 @@ Please consult the list below before you initiate a federation ban. Otherwise, s
 
 | Reason | What Does That Means? | Appealable?|
 | ----- | ----- | ----- |
-| `Reported in <fed name> Support` | Someone got reported elsewhereand we pulled our guns. Appeal in the [Federation Support](./support.md) | Yes, unless you're now banned elsewhere. |
+| `Reported in <fed name> Support` | Someone got reported elsewhere and we pulled our guns. Appeal in the [Federation Support](./support.md) after getting unbanned. | Yes, unless you're now banned elsewhere. |
 | `Flagged by SpamWatchers` | Likely flagged by federations other than SpamWatch. Mostly found in cryptoscammers. | No, you need to stop spamming everywhere in Telegram. We only lift your fedban if other federations unfedban you. |
 | `Reported in SpamWatch Support Chat` | Old reason for people who get reported in SpamWatch Support, now obsolete. Use `Reported in <federation name> Support` instead. | Yes, unless you're now banned in [SpamWatch](https://t.me/SpamWatch). |
-| `<category here> Spam` or `Spammer detected` | Likely this person is spmming around the chats. | Yes, but only if you stop. It might depends on your case. |
+| `<category here> Spam` or `Spammer detected` | Likely this person is spmming around the chats, ranging from Whatsapp links | Yes, but only if you stop. It might depends on your case. |
 | `spam[gban]` | Simplified ban reason that [Simon Hitler](https://t.me/SitiSchu) used. | Depends on how you spammed.
 | `Self-promoter detected in <chat name>` | Self-promoting in Telegram is considered as spam. | Yes, but only if you stop.
-| `NSFW Stuff` | Sharing NSFW content in Telegram isn't allowed, as per their ToS. | Yes, but only if you stop. If not, we'll reserve the right to report it to `abuse@telegram.org`.
+| `NSFW Stuff` | Sharing NSFW content in Telegram isn't allowed, as per their ToS. This included CACP content.| No, you violated the Telegram ToS. We'll reserve the right to report it to `abuse@telegram.org`.
+| `BLACKLISTED:0xCODEHERE` | You're found to be blacklisted in Spam Protection. Consult the operator's manual for the codes. | Appeal in [their Support](https://t.me/SpamProtectionSupport) first then contact us.
 
 ### Rare Reasons
 
@@ -46,13 +49,13 @@ REASONS HERE`.
 | `[FLAGGED IN <FEDERATION NAME>]` | We found that you had been flagged in a federation. (e.g. Xiaomeme or Rose Support Fed). | Depending on your ban reason from tht fed. |
 | `[FREE GBAN REQUESTED, DO NOT UNGBAN]` | You requested a free gban somewhere, so we gave you one. | See the Free Global Bans ToS for details. |
 | `[SPECIAL REASON, ONLY THE FEDBANNER CAN LIFT THIS BAN]` | An special reason was raised. Only the gbanner and [Support staff](https://t.me/ThePinsTeamSupport) can lift the ban. | it might depends on your special reason.
-| `[BLACKLISTED IN SPAM PROTECTION]` | If you're curious why, check the [public logs](https://t.me/SpamProtectionLogs). | If you think you're wrongfully blacklisted, [appeal in Intellivoid Dsicussions](https://t.me/IntellivoidDiscussions) then contact us afterwards.
+| `[BLACKLISTED IN SPAM PROTECTION]` | If you're curious why, check the [public logs](https://t.me/SpamProtectionLogs). ONLY USE THIS TAG IF NOT USING THE `BLACKLTED:0xCODEHERE` REASON. | If you think you're wrongfully blacklisted, [appeal in Spam Protection Support](https://t.me/SpamProtectionSupport) then contact us afterwards.
 
 ## FAQs
 
 ### Can I appeal my ban?
 
-Your gban reasons may affect on how you can appeal to an gban given by an FedAdmin. Please review the reasons above before coming to our Federation Support and ask for some help. We can only
+Your gban reasons may affect on how you can appeal to an gban given by an FedAdmin. Please review the reasons above before coming to our Federation Support and ask for some help. We can only lift once on case-on-case basis.
 
 ### I think I'm wrongly gbanned. I need help.
 
@@ -64,6 +67,6 @@ To get ungbanned elsewhere, please contact these admins or use their support opt
 
 ### I want to be a FedAdmin. How?
 
-We screen everyone who want to join the Federation Admins Squad. If you're good fit, we'll invite you to enter our **Interview Chat**, where we can interview you and do some verification steps there. In rare cases, we can promote somebody who have effort to report and ban spammers.
+We screen everyone who want to join the Federation Admins Squad. If you're good fit, we'll invite you to enter our **Interview Chat**, where we can interview you and do some verification steps there. In rare cases, we can promote somebody who have effort to report and ban spammers and also have experience in moderating chats.
 
 By default, FedAdmins are considered team staff at the Pins team as **Community Hub Network Moderators and Maintainers**.
