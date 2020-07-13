@@ -2,7 +2,9 @@
 
 ## Project Licenses
 
-**Project Source** - The project source and its contributions from different people are licensed under Mozilla Public License Versin 2.0 or later. The legal code of this license are also available at `LICENSE` in the root folder.
+Both project source and the website (including its contributions from different people) are licensed under both Mozilla Public License Versin 2.0 or later and the Creative Commons Attributions-ShareAlike . Unported 4.0. The legal code of this license are also available at `LICENSE` in the root folder.
+
+### MPL 2.0 Legal Text
 
 ```txt
 Mozilla Public License Version 2.0
@@ -378,16 +380,17 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
 
   This Source Code Form is "Incompatible With Secondary Licenses", as
   defined by the Mozilla Public License, v. 2.0.
-
 ```
 
-**Handbook Website and Contributions** - The handbook website itself and contributions from different people are licensed under **Creative Commons Attribution-ShareAlike 4.0 International**. The legal code for this CC license is found at <https://creativecommons.org/licenses/by-sa/4.0/legalcode.>
+### CC BY-SA 4.0 Unported Legal Text
+
+WIP
 
 ## Software Licenses for Third-Party Dependencies
 
 This section contains software license information for third-party software used in building this website where our official handbook lives.
 
-**Material for Mkdocs**
+### Material for Mkdocs
 
 ```txt
 MIT License
@@ -411,10 +414,9 @@ OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
 OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-**Mkdocs**
+### Mkdocs
 
 ```txt
-  
 Copyright © 2014, Tom Christie. All rights reserved.
 
 Redistribution and use in source and binary forms, with or

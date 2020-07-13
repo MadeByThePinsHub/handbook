@@ -27,7 +27,7 @@ FAQs about our handbook, the style guide, team and community directories, among 
   * [Team and Community Members](directory/team-members)
   * [Keybase Users](directory/keybase-users)
 
-### General
+### Life at the Pins team
 
 * [Life at the Pins team](life-at-the-pins)
   * [Censorship 101](life-at-the-pins/censorship-101)
@@ -38,7 +38,7 @@ FAQs about our handbook, the style guide, team and community directories, among 
 
 ### DevOps Department
 
-DevOps and GitLab is a good partner, but how about Glitch (or even GitPod)?
+The DevOps department is where we place our developers and sysadmins here.  DevOps and GitLab is a good partner, but how about Glitch (or even GitPod)?
 
 * [Index](devops)
   * [FAQs](devops/faqs)
@@ -67,7 +67,9 @@ How the Pins team uses GitLab and do Git-related stuff the GitLab way like triag
     * [Rentention Policies](the-gitlab-way/runners/artifacts-management/retention)
 * [Migrating from GitHub](the-gitlab-way/movingtogitlab/gh)
 
-### Community
+### Community Hub Network
+
+Learn more about our Community Hub Network, our policies, and where our Community Hubs can be found, among other things.
 
 * [Community Hub](community-hub)
   * [Fandoms](community-hub/fandoms)
@@ -86,20 +88,18 @@ How the Pins team uses GitLab and do Git-related stuff the GitLab way like triag
 
 ### Legal Information
 
-Copyright blah blah blah, privacy policies and other legal stuff. While we have an legal website for legal info, we are not lawyers and attonerys!
+Copyright blah blah blah, privacy policies and other legal stuff. While we have an legal website for legal info, we are not lawyers and attonerys! We're just internet people.
 
 * [The Legal Team](legal)
   * [Compliance](legal/global-compliance)
   * [The Code of Conduct](about/code-of-conduct)
   * [Copyright Info](copyright)
-* [Privacy Policy](https://legal.madebythepins.tk)
+* [Privacy Policy](https://legal.madebythepins.tk/privacy-policy)
 
 ## Open for community feedback
 
 Your contributions are licensed under both Mozilla Public License Version 2.0+ and Creative Commons Attribution-ShareAlike International License 4.0+.
 
-You are free to fork, remix, and use our handbook in any form, but you are required to give attribution and license under the same terms, unless otherwise specified in your IP permission request in the Issue Tracker.[^2]
+You are free to fork, remix, and use our handbook in any form, but you are required to give attribution and license under the same terms, unless otherwise specified in your IP permission request in the Issue Tracker.[^1]
 
-[^1]: Redirecting to `life-at-the-pins/your-first-weeks/onboarding` soon...
-[^2]: See [copyright page](copyright) for info.
-[^3]: Redirecting to `life-at-the-pins/your-last-weeks/offboarding` soon...
+[^1]: See [copyright page](copyright) for info.
