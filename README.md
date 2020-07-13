@@ -40,7 +40,7 @@ dekulefthegroup@Not-Literally-Your-Ubuntu-VM: ~/ThePinsTeam-OfficialHandbook-en 
 * Count how many words are there in the `handbook` directory and check how many with an online tool.
 
 ```bash
-find handbook -type f | xargs wc -w # Wait for the answer, then calucate!
+find handbook-src -type f | xargs wc -w # Wait for the answer, then calucate!
 ```
 
 * Run an new development server by using `mkdocs serve` command. Edit as you go and it'll refreshes every single save. Inspect for any errors and fix it.
@@ -57,7 +57,7 @@ See `handbook/about/CONTRIBUTING/using-gitpod.md` for details on how you can use
 
 ## CI Status
 
-CI build statuses are from the original GitLab mirror. If you forked the handbook, please edit the links!
+CI build statuses are from the original GitLab repository. If you forked the handbook straight from GitLab, please edit the links and the badge URLs!
 
 | Environment | Branch | CI Status |
 | ----------- | ------ | --------- |

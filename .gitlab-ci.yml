@@ -139,7 +139,7 @@ pages:
   stage: deploy
   script:
     - echo "Doing stuff..."
-    - echo "I do nothing because"
+    - echo "I do nothing because the builds are done."
   artifacts:
     paths:
       - public
