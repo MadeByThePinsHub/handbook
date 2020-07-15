@@ -6,6 +6,14 @@ title: Network Federation in Telegram
 
 > See [Contacting Fed Support](support.md)
 
+## Ban Reasons
+
+> See [our list](fedban-reasons.md) for valid ban reasons. We'll update this list as more reasons arise.
+
+## Federation Support Docs
+
+> Visit <https://fedsupport.madebythepins.tk> to read the Federation Support Docs, hosted on GitBook. Also its contents are [open-source in GitHub.](https://github.com/RetardedCasesOnTG/fedsupport-docs)
+
 ## Joining the Federation
 
 If you're using these bots below, you can join to our Community Network fed (subscribe if you have an fed). We recommend to use Rose and join there because our fbanlist is more up-to-date and also our fed is
@@ -18,10 +26,6 @@ If you're using these bots below, you can join to our Community Network fed (sub
 | [Haruka Aya] | `6a75b4a2-c58b-4814-b5ac-807855d8db34` | `/joinfed 6a75b4a2-c58b-4814-b5ac-807855d8db34` or `/subfed 6a75b4a2-c58b-4814-b5ac-807855d8db34` | Lagging behind 1000+ bans because the code that powers feds is a pile of shit code sum up together, they used to but not now due to the fact TCP db connection + DBLock make it take forever to import (up to 2 days) and hence why the bot itself is kinda slow.[^1] |
 | [Kigyō] | TBA | TBA | Because its repo is based from [Saitama (Stable)], we're gonna wait for any updates.
 | [Exusisa (Heroku Aya)] | TBA | TBA | Because its repo is based from [Haruka Aya], we're gonna wait for any updates.
-
-## Ban Reasons
-
-> See [our list](fedban-reasons.md) for valid ban reasons. We'll update this list as more reasons arise.
 
 [Rose]: https://t.me/MissRose_bot
 [Sophie (stable)]: https://t.me/rSophieBot
