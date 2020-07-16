@@ -7,12 +7,13 @@ Welcome to the Pins team's official English Handbook! This is where the whole ha
 
 !!! warning "Heads up, the handbook is still work-in-progress."
     You'll seeing this because most of the deployments are either from the `develop` branch or from
-    [an branch we're working](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/pipelines/develop). For any feedback about this preview,
-    use our [issue tracker](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/issues) in GitLab.com.
+    [an branch we're working](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/pipelines/develop). For any feedback about this
+    preview, use our [issue tracker](https://gitlab.com/MadeByThePinsTeam-DevLabs/official-handbook/issues) in GitLab.com.
 
 ## What's In the Book
 
-There are so many articles in our team's Handbook and we have divided it into different sections to improve handbook navigation, just in case the navigation bar is outdated.
+There are so many articles in our team's Handbook and we have divided it into different sections to improve handbook navigation,
+just in case the navigation bar is outdated.
 
 ### About Our Handbook and Resources
 
@@ -28,6 +29,8 @@ FAQs about our handbook, the style guide, team and community directories, among 
   * [Keybase Users](directory/keybase-users)
 
 ### Life at the Pins team
+
+Learn more how your life will looks like when you join the team.
 
 * [Life at the Pins team](life-at-the-pins)
   * [Censorship 101](life-at-the-pins/censorship-101)
