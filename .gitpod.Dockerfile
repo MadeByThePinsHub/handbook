@@ -1,4 +1,4 @@
-FROM gitpod/worksapce-full
+FROM gitpod/workspace-full
 
 USER gitpod
 
