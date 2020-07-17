@@ -1,8 +1,27 @@
+# Build from dockerfile
 image:
   file: .gitpod.Dockerfile
+
+## Do tasks.
 tasks:
   - init: pip3 install -r requirements.txt
     command: mkdocs serve --dev-addr localhost:3000 -v --livereload
+
+## Only ports =<9999 must get notified
 ports:
   - port: 1024-9999
     onOpen: notify
+
+## For the Gitpod GH app, configure sturr.
+github:
+  prebuilds:
+    # enable for the master/default branch (defaults to true)
+    master: true
+    # enable for all branches in this repo (defaults to false)
+    branches: false
+    # enable for pull requests coming from this repo (defaults to true)
+    pullRequests: true
+    # add a check to pull requests (defaults to true)
+    addCheck: true
+    # add a "Review in Gitpod" button as a comment to pull requests (defaults to false)
+    addComment: true
