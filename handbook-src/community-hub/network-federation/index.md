@@ -4,7 +4,7 @@ title: Network Federation in Telegram
 
 ## Support
 
-> See [Contacting Fed Support](support.md)
+> See [Contacting Fed Support](support.md) if you need help.
 
 ## Ban Reasons
 

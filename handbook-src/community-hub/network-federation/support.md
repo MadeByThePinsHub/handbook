@@ -9,10 +9,11 @@ To contact support, we made a table for you to lessen our time explaining stuff.
 
 | Chat | Description | Link |
 | ----- | ----- | ----- |
-| Federation Support Chat | The official feeration support chat of the Pins team. **Recommended for FedBan appeals across our network.** | <https://t.me/ThePinsTeam_FedSupport>. |
+| Federation Support Chat | The official feeration support chat of the Pins team. **Recommended for FedBan appeals across our network.** | <https://t.me/ThePinsTeam_FedSupport> |
 | Pool of Elon Musk Scam Reports Chat | The right place to dump reports to get banned across our network. | <https://t.me/FedbanRequestDumpingHub> |
-| SpamWatch Support | Because our federation is proud subfed of SpamWatch, bans from there can also catch to our feeration without human intervention. | <https://t.me/SpamWatchSupport> |
-| Sibyl System • Public Safety Bureau | Because our fed
+| SpamWatch Support | Because our federation is proud subfed of SpamWatch, bans from there can also catch to our federation without human intervention. [^1] | <https://t.me/SpamWatchSupport> |
+| Sibyl System • Public Safety Bureau [^1] | Because our federation is an subfed of Sibyl System, bans from there can also catch to our federation without human intervention. | <https://t.me/PublicSafetyBureau>
+| SpamBlockers / Graveyard Dwellers | | <https://t.me/GraveyardDwellers> / <https://t.me/SpamBlockers>
 
 ## The Federation Staffs
 
@@ -33,5 +34,7 @@ Federation Support, because it was managed by the Pins team.
 - **No asking for unbans every day.** If you ask for a unban everyday, we'll temporarily mute you. If you still doing that, we'll
 make your ban unappealable.
 - **No deleting / editing out your messages.** Context in discussions is important.
-- ~~**Swearing is also not allowed.** Our moderation bot will warn about that automatically.~~ This rule is not applicable.
+- ~~**Swearing is also not allowed.** Our moderation bot will warn about that automatically.~~ This rule is not applicable and is being currently phrasing out.
 - [**Check your ban reason before appealing.**](../fedban-reasons.md) We'll review
+
+[^1]: In rare cases, we might pull them to our fed and simply prefixing the reason with `[FLAGGED IN <INSERT FED/ANTISPAM SERVICE HERE>]` (or `[BLACKLISTED IN SPAM PROTECTION]` for SP cases).
