@@ -28,7 +28,7 @@ dry-run:mkdocs_buildTester:
     - virtualenv venv
     - source venv/bin/activate
     - pip install -r requirements.txt
-    - bash ./scripts/builds/gitlab-pages/mkdocs_build.sh
+    - mkdocs build -v
   artifacts:
     paths:
       - site
@@ -49,7 +49,9 @@ develop:mkdocs_build:
     - virtualenv venv
     - source venv/bin/activate
     - pip install -r requirements.txt
-    - bash ./scripts/builds/gitlab-pages/mkdocs_build.sh
+    - mkdocs build -v
+    - cp -R ./site ./public
+    - ls -al ./public
   artifacts:
     paths:
       - public
@@ -58,46 +60,6 @@ develop:mkdocs_build:
   only:
     refs:
       - develop
-
-staging:mkdocs_build:
-  image: python:3.7
-  stage: build
-  script:
-    - pip install virtualenv
-    - virtualenv venv
-    - source venv/bin/activate
-    - pip install -r requirements.txt
-    - bash ./scripts/builds/gitlab-pages/mkdocs_build.sh
-  artifacts:
-    paths:
-      - public
-    expire_in: 7 days
-    when: on_success
-  only:
-    refs:
-      - staging
-  variables:
-    BUILDS_TYPE: "staging"
-
-mkdocs_build:
-  image: python:3.7
-  stage: build
-  script:
-    - pip install virtualenv
-    - virtualenv venv
-    - source venv/bin/activate
-    - pip install -r requirements.txt
-    - bash ./scripts/builds/gitlab-pages/mkdocs_build.sh
-  artifacts:
-    paths:
-      - public
-    expire_in: 7 days
-    when: on_success
-  only:
-    refs:
-      - master
-  variables:
-    BUILDS_TYPE: "production"
 
 dry-run:words_counter:
   image: alpine:latest
