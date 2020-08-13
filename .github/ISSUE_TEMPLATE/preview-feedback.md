@@ -1,7 +1,7 @@
 ---
 name: Preview feedback
-about:
-title: [FEEDBACK]:
+about: 
+title: "[FEEDBACK]:"
 labels: "feedback", "documentation"
 ---
 

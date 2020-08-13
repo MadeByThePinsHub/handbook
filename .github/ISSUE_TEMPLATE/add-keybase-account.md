@@ -1,5 +1,6 @@
 ---
 name: Add my Keybase account to the directory
+about: Use this template if you want to add your Keybase username to our list.
 title: Add [insert your Keybase username here] to the list
 labels: "enchancement"
 assignees: AndreiJirohHaliliDev2006, ThePinsTeam
