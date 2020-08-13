@@ -15,20 +15,10 @@ cache:
     - venv/
     
 stages:
-  - install
   - build
   - dry-run
   - triage
   - deploy
-
-dependency_installer:
-  image: python:3.7
-  stage: install
-  script:
-    - pip install virtualenv
-    - virtualenv venv
-    - source venv/bin/activate
-    - pip install -r requirements.txt
 
 dry-run:mkdocs_buildTester:
   image: python:3.7
@@ -37,6 +27,7 @@ dry-run:mkdocs_buildTester:
     - pip install virtualenv
     - virtualenv venv
     - source venv/bin/activate
+    - pip install -r requirements.txt
     - bash ./scripts/builds/gitlab-pages/mkdocs_build.sh
   artifacts:
     paths:
@@ -57,6 +48,7 @@ develop:mkdocs_build:
     - pip install virtualenv
     - virtualenv venv
     - source venv/bin/activate
+    - pip install -r requirements.txt
     - bash ./scripts/builds/gitlab-pages/mkdocs_build.sh
   artifacts:
     paths:
@@ -74,6 +66,7 @@ staging:mkdocs_build:
     - pip install virtualenv
     - virtualenv venv
     - source venv/bin/activate
+    - pip install -r requirements.txt
     - bash ./scripts/builds/gitlab-pages/mkdocs_build.sh
   artifacts:
     paths:
@@ -93,6 +86,7 @@ mkdocs_build:
     - pip install virtualenv
     - virtualenv venv
     - source venv/bin/activate
+    - pip install -r requirements.txt
     - bash ./scripts/builds/gitlab-pages/mkdocs_build.sh
   artifacts:
     paths:
