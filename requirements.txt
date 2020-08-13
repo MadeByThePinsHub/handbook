@@ -1,4 +1,4 @@
-## Adopted from https://github.com/fire1ce/3os.org/blob/master/requirements.txt
+## Adopted most of them from https://github.com/fire1ce/3os.org/blob/master/requirements.txt
 ## without the version locking bullshit.
 Babel
 beautifulsoup4
@@ -21,6 +21,7 @@ mkdocs
 mkdocs-material
 mkdocs-material-extensions
 mkdocs-minify-plugin
+mkdocs-redirects
 nltk
 pep562
 pyembed
