@@ -53,6 +53,15 @@ else
     echo "[ERROR!] Yeet, a undefined builds type was detected. Exiting..."
     exit 1
 fi
+
+if [[ $? != "0" ]];
+then
+    echo "Something went wrong while building the website, exiting..."
+    exit 35
+else
+    continue
+fi
+
 pause_between_steps "1"
 
 print_status "[INFO] Confirming builds..."

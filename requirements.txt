@@ -1,5 +1,5 @@
 ## Adopted from https://github.com/fire1ce/3os.org/blob/master/requirements.txt
-## Minus the Regex stuff (e.g. package-name-py==xx.yy.zz or package-name-py2>=xx.yy.zz)
+## without the version locking bullshit.
 Babel
 beautifulsoup4
 certifi
