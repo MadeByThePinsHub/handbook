@@ -21,13 +21,10 @@ stages:
   - deploy
 
 dry-run:mkdocs_buildTester:
-  image: python:3.7
+  image: madebythepinshub/mkdocs-material:latest
   stage: dry-run
   script:
-    - pip install virtualenv
-    - virtualenv venv
-    - source venv/bin/activate
-    - pip install -r requirements.txt
+    - pip install --upgrade -r requirements.txt
     - mkdocs build -v
   artifacts:
     paths:
@@ -42,13 +39,10 @@ dry-run:mkdocs_buildTester:
     - staging
 
 develop:mkdocs_build:
-  image: python:3.7
+  image: madebythepinshub/mkdocs-material
   stage: build
   script:
-    - pip install virtualenv
-    - virtualenv venv
-    - source venv/bin/activate
-    - pip install -r requirements.txt
+    - pip install --upgrade -r requirements.txt
     - mkdocs build -v
     - cp -R ./site ./public
     - ls -al ./public
