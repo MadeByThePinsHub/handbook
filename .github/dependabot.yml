@@ -1,7 +1,39 @@
+## Use the GitHub-native Dependabot instead of legacy version.
 version: 2
+
 updates:
-- package-ecosystem: pip
-  directory: "/"
-  schedule:
-    interval: daily
-  open-pull-requests-limit: 10
+  - package-ecosystem: pip
+    directory: "/"
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    assignees:
+      - ThePinsTeam
+    reviewers:
+      ## Attempt to mention any team members first for reviews
+      - AndreiJirohHalili2006
+      ## If not, then let Community Maintainers handle it.
+      - TipzTeam
+      - robbyoconnor
+    labels:
+      - "Updated by Dependabot"
+      - "dependencies"
+      - pip
+  - package-ecosystem: "npm"
+    # Look for `package.json` and `lock` files in the `root` directory
+    directory: "/"
+    # Check the npm registry for updates every month
+    schedule:
+      interval: "monthly"
+    assignees:
+      - ThePinsTeam
+    reviewers:
+      ## Attempt to mention any team members first for reviews
+      - AndreiJirohHalili2006
+      ## If not, then let Community Maintainers handle it.
+      - TipzTeam
+      - robbyoconnor
+    labels:
+      - "Updated by Dependabot"
+      - "dependencies"
+      - npm
