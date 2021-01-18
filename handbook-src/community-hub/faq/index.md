@@ -11,13 +11,14 @@ description: A collection of community questions we collected from different sou
 
 ### Coming Soon
 
-* [Where are the past protaginsts gone in Yu-Gi-Oh Arc-V?](yu-gi-oh/previous-protagonists-in-arc-v.md)
 * [Anime Censorship? Holy $h!t!](censorship-101/anime.md)
 
 ## How to add more
 
 Create a new issue in [our General GitLab Community Hub Network's Issue Tracker](https://gitlab.com/ThePinsTeam-CommunityHubNetwork/general/issues/new)
-using the `Add a new Community Hub FAQ Entity`. We'll review them and if we'll approved it, we'll add it to our FAQ entities within days.
+using the `Add a new Community Hub FAQ Entity`. We'll review them and if we'll approved it, we'll add it to our FAQ entities within days or weeks.
+
+Merge Requests are also welcome in the handbook source repository if you want to help us author the Community FAQ entries.
 
 ## Want to edit them
 
