@@ -14,7 +14,9 @@ Jinja2
 joblib
 jsmin
 livereload
-lunr
+# for some reasons, mkdocs requires lunr v0.5.8
+# when using the latest version, the build failed.
+lunr==0.5.8
 Markdown
 MarkupSafe
 mkdocs
