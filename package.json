@@ -8,8 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "check-status": "./lint-status.sh",
-    "lint": "./lint-md.sh",
+    "check-status": "./lint-status.sh > .logs/lint-status.txt",
+    "lint": "./lint-md.sh > .logs/linting-md.txt",
     "test": "echo I do nothing KEK && exit 1",
     "start": "echo I do nothing KEK && exit 1"
   },

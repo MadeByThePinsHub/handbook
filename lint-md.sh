@@ -12,5 +12,4 @@ lintProcess() {
     markdownlint handbook-src/**.md --fix
 }
 
-lintProcess()
-echo [INFO] Done linting, exiting...
+lintProcess
