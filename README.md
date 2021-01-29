@@ -79,3 +79,7 @@ For contributions, see the `CONTRIBUTING.md` file in root directory of this repo
 We are also seeking for community feedback in improving the handbook, so feel free to remix and edit.
 
 [live preview website]: https://en.handbooksbythepins.gq/about/CONTRIBUTING
+
+## To-Dos
+
+WIP
