@@ -119,7 +119,7 @@ dmypy.json
 
 # Node.js stuff
 /node_modules/
-package-lock.json
+#package-lock.json
 
 # Logs for our homemade scripts
 .logs/*
