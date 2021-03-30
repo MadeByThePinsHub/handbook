@@ -44,7 +44,7 @@ nav:
           - 'PGP Keys and Keybase': 'devops/secure/pgp-keys/keybase.md'
           - 'Team Members Using Keybase': 'directory/keybase-users.md'
     - 'GitLab':
-      - 'GitLab What?': 'the-gitlab-way/index.md/#gitlab-what'
+      - 'GitLab What?': 'the-gitlab-way/index.md'
       - 'Migrating from GitHub': 'the-gitlab-way/movingtogitlab/github.md'
       - 'Triage Operations':
         - 'Index': 'the-gitlab-way/triage-ops/index.md'

@@ -13,3 +13,14 @@ Triage oeprations is where people triage issues and maintaining low un-triaged i
 ## The TriageOps bot: @RecapTime_bot
 
 Most of the automated issue and MR replies are handled by our bot, @RecapTime_bot. To access that account on API or even in the GUI, please ask an question in our staff lounge chats.
+
+## Setup TriageOps
+
+1. Clone the gl-triageops repository, then run the setup script.
+
+```bash
+# SSH is preferred, but if you need HTTPS auth, eat this:
+git clone https://gitlab.com/MadeByThePinsHub/automation-triageops/auto-triage-bot.git
+
+cd
+```
